@@ -1,0 +1,26 @@
+body{
+    font-family: Geneva;
+    font-size: 14px;
+    line-height:  1.5;
+}
+
+#profilephoto {
+    width: 140px;
+    float: rigth;
+    margin-top: -80px;
+    position: relative;
+    box-shadow: black 4px 8px 10px black,
+    black = 4px 4px 10px black
+    border-top-right-radious: 10px;
+}
+header {
+    background-color: rgb(11, 61, 73)
+    color rgb(180, 171, 171)
+
+}
+header, footer {
+    font-family: Verdana;
+    padding: -.40cm;
+    text-align: center;
+    border-radius: 14px 14px;
+}
