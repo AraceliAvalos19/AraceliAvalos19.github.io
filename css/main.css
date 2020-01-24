@@ -4,13 +4,13 @@ body{
     line-height:  1.5;
 }
 
-#profilephoto {
+foto de perfil {
     width: 140px;
     float: rigth;
     margin-top: -80px;
     position: relative;
     box-shadow: black 4px 8px 10px black,
-    black = 4px 4px 10px black
+   
     border-top-right-radious: 10px;
 }
 header {
