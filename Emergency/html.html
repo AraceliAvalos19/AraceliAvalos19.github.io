@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check the Weather Site Plan</title>
+    <meta name="description" content=  " Site Plan for The Wather Site Project |Araceli Avalos in CIT 230: 
+     Web Frontend Development at BYUi">
+
+    <link rel="stylesheet" href= "css/normalize.css">
+    <link rel="stylesheet" href= "css/large.css">
+    <link rel="stylesheet" href= "css/medium.css">
+    <link rel="stylesheet" href= "css/small.css">
+
+    <link href="css/main.css"rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Be+Vietnam|Merriweather|Noto+Serif|Oswald|Roboto:
+      300i&display=swap" rel="stylesheet">
+    
+</head>
+
+<body>
+<header> 
+    <h1>Check the Weather Site Plan<h1>
+   
+</header>
+<nav>
+   <ul>
+    <li><a href="index.html">Home</a>
+    </li>
+    <li><a href="target-audience.html">Target, Audience & Scenarios</a>
+    </li>
+    <li><a href="color-scheme.html">Color Scheme</a>
+    </li>
+    <li><a href="typography.html">Typography</a>
+    </li>
+   </ul>
+</nav>
+
+<main>
+<h2>Site Name</h2>
+<p>Check the Weather</p>
+
+
+<h2>Site Purpose</h2>
+<p>Check the Weather is the weather channel for the central Veracruz State area. 
+   Centralizing the most reliable weather forecast in a quick and easy way, we become essential.
+   From self service options to access to useful and wonderful streaming links .
+   We fulfil our mission to empower Veracruzans and make them connect with each other!</p>
+
+
+<h2>Domain Name</h2>
+<p>checktheweather.com</p>
+
+
+<h2>Logo</h2>
+<p></p>
+
+    
+</main>
+    <footer>
+        &copy; 2020 _ Araceli Avalos | México | <a href="https://www.byui.edu/online" >BYUi Online Learning</a> | Today's Date: <span id="currentdate"></span>  
+    </footer>
+    
+    <script>
+        const options = {weekday: "long", day: "numeric", month: "long", year: "numeric"}; 
+                document.getElementById("currentdate").textContent = new Date().toLocaleDateString("en-US",options);
+
+    </script>
+    
+   </body>
+</html>

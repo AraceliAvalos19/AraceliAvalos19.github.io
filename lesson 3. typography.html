@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check the Weather Site Plan Target Audience</title>
+    <meta name="description" content=  " Site Plan for The Wather Site Project |Target Audience | 
+     Web Frontend Development at BYUi">
+
+    <link rel="stylesheet" href= "css/normalize.css">
+    <link rel="stylesheet" href= "css/large.css">
+    <link rel="stylesheet" href= "css/medium.css">
+    <link rel="stylesheet" href= "css/small.css">
+
+    <link href="css/main.css"rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Be+Vietnam|Merriweather|Noto+Serif|Oswald|Roboto:
+      300i&display=swap" rel="stylesheet">
+    
+</head>
+
+<body>
+<header> 
+    <h1>Check the Weather Site Plan<h1>
+   
+</header>
+<nav>
+   <ul>
+    <li><a href="index.html">Home</a>
+    </li>
+    <li><a href="target-audience.html">Target, Audience & Scenarios</a>
+    </li>
+    <li><a href="color-scheme.html">Color Scheme</a>
+    </li>
+    <li><a href="typography.html">Typography</a>
+    </li>
+   </ul>
+</nav>
+
+<main>
+<h2>Typography</h2>
+
+<h3>Roboto</h3>
+<img src="images/Roboto font.jpg" alt= "font">
+
+<h3>Merriweather</h3>
+<img src="images/Merriweather font.jpg" alt= "font">
+
+
+<h3>Be Vietnam</h3>
+<img src="images/Be Vietnam font.jpg" alt= "font">
+
+
+</main>
+    <footer>
+        &copy; 2020 _ Araceli Avalos | México | <a href="https://www.byui.edu/online" >BYUi Online Learning</a> | Today's Date: <span id="currentdate"></span>  
+    </footer>
+    
+    <script>
+        const options = {weekday: "long", day: "numeric", month: "long", year: "numeric"}; 
+                document.getElementById("currentdate").textContent = new Date().toLocaleDateString("en-US",options);
+
+    </script>
+    
+   </body>
+</html>
