@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check the Weather Site Plan Target Audience</title>
+    <meta name="description" content=  " Site Plan for The Wather Site Project |Target Audience | 
+     Web Frontend Development at BYUi">
+
+    <link rel="stylesheet" href= "css/normalize.css">
+    <link rel="stylesheet" href= "css/large.css">
+    <link rel="stylesheet" href= "css/medium.css">
+    <link rel="stylesheet" href= "css/small.css">
+
+    <link href="css/main.css"rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Be+Vietnam|Merriweather|Noto+Serif|Oswald|Roboto:
+      300i&display=swap" rel="stylesheet">
+    
+</head>
+
+<body>
+<header> 
+    <h1>Check the Weather Site Plan<h1>
+   
+</header>
+<nav>
+   <ul>
+    <li><a href="index.html">Home</a>
+    </li>
+    <li><a href="target-audience.html">Target, Audience & Scenarios</a>
+    </li>
+    <li><a href="color-scheme.html">Color Scheme</a>
+    </li>
+    <li><a href="typography.html">Typography</a>
+    </li>
+   </ul>
+</nav>
+
+<main>
+<h2>Target Audience & Scenarios</h2>
+
+<h2>Personas</h2>
+<section>
+<img src="images/photo Claudia.jpg" alt= "teacher">
+<ul>
+   <h3>Claudia Reyes</h3>
+   <li> Age: 35</li>
+   <li> Occupation: kindergarten teacher.</li>
+   <li> Reason for searching the web page: check the weather conditions to see if they 
+         do not interfere with an outdoor activity that affects children and their parents
+         in a park in front of the school.</li>
+</ul>
+</section>
+<p></p>
+
+<section>
+<img src="images/photo Adolfo.jpg" alt= "triathlete">
+<ul>
+   <h3>Adolfo Avalos</h3>
+   <li> Age: 41</li>
+   <li> Occupation: Triathlete.</li>
+   <li> Reason for searching the web page:• Reason for searching the web page: Make sure
+    he will have the necessary gear for a training.</li>
+</ul>
+</section>
+
+<h2>Scenarios</h2>
+
+<ul>
+   <li>There will be rain of stars tonight will it be cloudy?</li>
+   <li>We have a soccer tournament with children, what will be the weather conditions?</li> 
+   <li>In the office there is a project to plant trees on the outskirts of the city, 
+       will it rain in the next few days?</li>
+   <li>My daughter is sick, I want to know how the weather will be during the rest of the week.</li>
+   <li>I want to know if I can already store the snow clothes. Will it still snow?</li>
+</ul>    
+</main>
+    <footer>
+        &copy; 2020 _ Araceli Avalos | México | <a href="https://www.byui.edu/online" >BYUi Online Learning</a> | Today's Date: <span id="currentdate"></span>  
+    </footer>
+    
+    <script>
+        const options = {weekday: "long", day: "numeric", month: "long", year: "numeric"}; 
+                document.getElementById("currentdate").textContent = new Date().toLocaleDateString("en-US",options);
+
+    </script>
+    
+   </body>
+</html>
