@@ -1,7 +1,15 @@
 body{
+    display: block;
     font-family: Geneva;
     font-size: 14px;
     line-height:  1.5;
+    margin: 8px;
+    margin-top: 8px;
+    margin-left: 8px;
+    margin-bottom: 8px;
+    margin-right: 8px;
+    color: black;
+
 }
 
 foto de perfil {
@@ -14,13 +22,42 @@ foto de perfil {
     border-top-right-radious: 10px;
 }
 header {
-    background-color: rgb(85, 116, 124)
-    color rgb(180, 171, 171)
-
-}
-header, footer {
+    background-color: rgb(85, 116, 124);
+    color black;
     font-family: Verdana;
-    padding: -.40cm;
     text-align: center;
     border-radius: 14px 14px;
+    height: auto;
+    max-width: 45rem;
+    margin: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    padding: 0.75rem;
+    padding-top: 0.75rem;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    padding-bottom: 0.75rem;
+    }
+    
+footer {
+    background-color: rgb(85, 116, 124);
+    color black;
+    font-family: Verdana;
+    text-align: center;
+    border-radius: 14px 14px;
+    height: auto;
+    max-width: 45rem;
+    text-align: center;
+    margin: auto;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-bottom: 0px;
+    margin-right: auto;
+    padding: 0.75rem;
+    padding-left: 0.75rem;
+    padding-top: 0.75rem;
+    padding-right: 0.75rem;
+    padding-bottom: 0.75rem;
+    
 }
