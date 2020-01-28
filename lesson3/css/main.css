@@ -12,7 +12,8 @@ display: block;
 
 h1{
     font-family: "Merriweather";font-size: 40px;
-    font-style: black;
+    background-color: 1c3144;
+    font-style: white;
     letter-spacing 1px;    
 }
 
