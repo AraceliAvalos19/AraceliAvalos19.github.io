@@ -1,7 +1,8 @@
 
 
 
-body{
+body {
+    font-family: "Be Vietnam";
 max-width: 800px;
 }
 
@@ -11,40 +12,52 @@ background-color: #1c3144;
 color: #f1f1de;
 font-weight: bold;
 padding: 15px 50px;
+text-align: center;
 
 }
 
+
 nav li {
-    max-width: 800px;
+    
     background-color: #4cbb17;
     color: #1c3144;
     font-family: 'Be Vietnam', light;
     font-size: 1.0em;
-display: inline;
-  padding: 10px;
-  margin-top: 0px;
-    
+    display: inline;
+padding: 10px;
+
+
 }
     
     h1{
 font-size: 2.5rem;
 }
 h2{
-font-size: 1rem;
+font-size: 1.5rem;
+color: #1c3144;
+}
+p{
+    color: #1c3144;
 }
 Foto{
+    
 padding: 10px 10px;
+
 height: 180px;
 text-align: right;
+
 }
 
 main{
-padding-left: 15px;
+padding-left: 30px;
+}
+img{
+    box-shadow: 5px 5px 5px;
 }
 
-footer{
+footer, nav{
 text-align: center;
  background-color: #4cbb17;
 color: #1c3144;
-padding: 10px;
+padding: 12px;
 }
