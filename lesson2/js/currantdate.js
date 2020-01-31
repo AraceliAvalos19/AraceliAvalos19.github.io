@@ -27,5 +27,7 @@ const dayName = dayNames[todaysdate.getDay()]
 const monthName = months[todaysdate.getMonth()]
 const currentdate = dayName + "," + todaysdate.getDay() + " " + monthName + " , " + todaysdate.getFullYear();
 
-document.getElementById("lastmode").textContent = new Date()
+
+document.getElementById("currentdate").textContent = new Date()
 <script src = "js / date.js"> </script>
+
