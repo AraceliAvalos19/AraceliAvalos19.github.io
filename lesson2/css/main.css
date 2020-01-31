@@ -16,10 +16,11 @@ section
  {
     display: inline-block; 
     max-width: 300px;
-    max-height: 790px;
+   
     border: 2.5px solid rgb(167, 167, 167);
     padding: 1rem;
     margin: 4px;
+    margin-top: 4px;
     background-color: white;
     color: black;
     
