@@ -55,10 +55,12 @@ text-align: right;
 main{
 padding-left: 30px;
 color: #1c3144;
+
 }
 img{
     box-shadow: 5px 5px 5px;
 }
+
 
 footer, nav{
 text-align: center;
