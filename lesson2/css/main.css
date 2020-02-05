@@ -5,6 +5,7 @@ body{
     background-color: rgb(85,116,124);
 }
 main {
+    display: grid; 
     grid-template-columns: 1fr 1fr 1fr;
     max-width: 1100px;
     margin: auto;
@@ -16,6 +17,7 @@ section
  {
     display: inline-block; 
     max-width: 300px;
+    max-height: 787px;
    
     border: 2.5px solid rgb(167, 167, 167);
     padding: 1rem;
