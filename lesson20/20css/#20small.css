@@ -8,19 +8,19 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 nav button {
     margin: .2rem 2%;
     background-color: transparent;
-    border: none
+    border: none;
     font-size: 1.6rem;
-    color: #1C3144;
+    color: #555;
 }
 nav {
-    background-color: #4cbb17;
+    background-color: #ccc;
     font-family: Be Vietnam;
 }
 
 nav ul {
     list-style-type: none;
-    padding: 0;
-    margin: 0;
+    padding: 0px;
+    margin: 0px;
 }
 
 nav ul li a{
@@ -28,8 +28,13 @@ nav ul li a{
     padding: .8rem 2%;
     text-decoration: none;
     color: #000;
-    border-top: 1px solid rgba(0, 0, 0, 0.3);
+    border-top:1px solid rgba(0, 0, 0, 0.3);
 
 }
 
 nav ul li a:hover {background-color: rgba(0, 0, 0, 0.3);}
+
+
+
+
+
