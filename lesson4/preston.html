@@ -24,6 +24,7 @@
 <link href="css/large.css" rel="stylesheet">
 
 
+
      
 </head>
 <body>
@@ -35,40 +36,68 @@
     
     
 <!-- NAVIGATION HERE -->
-    <nav class="clearflix"> 
+    <nav class="clearfix">
+
         <button onclick="toggleMenu()">&#9776;</button>
         <ul id="primaryNav" class="">
             <li><a href="#">Home</a></li>
-            <li class"active"><a href="#">Preston Idaho</a></li>
+            <li class="active"><a href="#">Products</a></li>
+            <li><a href="#">Location</a></li>
+            <li><a href="#">Contact</a></li>  
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Products</a></li>
             <li><a href="#">Location</a></li>
             <li><a href="#">Contact</a></li>    
-            <li><a href="#">Home</a></li>
-            <li class"active"><a href="#">Preston Idaho</a></li>
-            <li><a href="#">Location</a></li>
-            <li><a href="#">Contact</a></li>   
         </ul>
     </nav>
-   
-    
     
     
 <!-- CONTENT HERE -->
     <main>
-        <h1>Preston Idaho</h1>
+        <h1>Products</h1>
         <p>The page name shoud almost exactly match the menu item. </p>
     </main>
     
-    
- 
-    <footer>
-        &copy; 2020 _ Araceli Avalos | México | <a href="https://www.byui.edu/online" >BYUi Online Learning</a> | Today's Date: <span id="currentdate"></span>  
-    </footer>
-    
-   <script >
-       const options = {weekday: "long", day: "numeric", month: "long", year: "numeric"}; 
-                document.getElementById("currentdate").textContent = new Date().toLocaleDateString("en-US",options);
-   </script>
+<!-- FOOTER HERE -->   
+<footer>
+    &copy; 2020 _ Araceli Avalos | México | <a href="https://www.byui.edu/online" >BYUi Online Learning</a> | Today's Date: <span id="currentdate"></span>  
+</footer>
+
+<script>
+    const options = {weekday: "long", day: "numeric", month: "long", year: "numeric"}; 
+            document.getElementById("currentdate").textContent = new Date().toLocaleDateString("en-US",options);
+
+</script>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
