@@ -10,10 +10,10 @@ nav button {
     background-color: transparent;
     border: none;
     font-size: 1.6rem;
-    color: #555;
+    color: #1c3144;
 }
 nav {
-    background-color: #ccc;
+    background-color: #4cbb17;
     font-family: Be Vietnam;
 }
 
@@ -32,7 +32,7 @@ nav ul li a{
 
 }
 nav ul li.active a{background-color: rgba(0, 0, 0, 0.2)}
-nav ul li a:hover {background-color: rgba(0, 0, 0, 0.4); color: #fff;}
+nav ul li a:hover {background-color: rgba(0, 0, 0, 0.2); color: #fff;}
 nav ul.hide {display: none;}
 
 /*----- Clearfix: Force an Element not to collapse -----*/
