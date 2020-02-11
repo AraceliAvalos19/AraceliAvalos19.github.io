@@ -11,6 +11,7 @@ body {
     font-family: Be Vietnam;
 }
 #ad{
+    background-color: #4cbb17;
     display: block;
     text-align: center;
     padding: .8rem 0;
