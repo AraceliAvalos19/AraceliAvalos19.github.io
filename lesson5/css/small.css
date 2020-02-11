@@ -175,10 +175,12 @@ img.snowmoon {
 }
 
 footer {
+    height: 5rem;
     text-align: center;
     background-color: #1c3144;
     color: #f1f1ed;
-    padding: .5rem;
+    padding: 1.5px;
+  
 }
 
 
