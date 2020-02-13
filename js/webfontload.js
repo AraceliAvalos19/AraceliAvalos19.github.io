@@ -1,0 +1,1 @@
+WebFont.load({google: {families: ['Be Vietnam','Merriweather']}});

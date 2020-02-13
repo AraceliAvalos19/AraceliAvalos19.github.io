@@ -10,18 +10,13 @@ body {
     color: #f1f1ed;
     font-family: Be Vietnam;
 }
-#ad{
+
     background-color: #4cbb17;
     display: block;
     text-align: center;
     padding: .8rem 0;
     width: 100%;
-    }
-
-    #ad > p {
-        margin: 0;
-    }
-
+   
 
 header {
     font-family: Merriweather;
@@ -50,6 +45,16 @@ header img {
     display: block;
     height: 4rem;
 }
+
+#friday {
+    background-color: #4cbb17;
+    color: #1c3144;;
+    display: block;
+    text-align: center;
+    font-family: Be Vietnam;
+    padding: .8rem 0;
+    width: 100%;
+}
 nav button {
     margin: .2rem 2%;
     background-color: transparent;
@@ -58,14 +63,17 @@ nav button {
 color: #1c3144
 }
 nav {
+   
     background-color: #4cbb17;
     font-family: Be Vietnam;
 }
 
 nav ul {
+   
     list-style-type: none;
     padding: 0px;
     margin: 0px;
+  
 }
 
 nav ul li a{
