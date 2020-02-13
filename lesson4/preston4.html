@@ -96,8 +96,10 @@
 <footer>
     &copy; 2020 _ Araceli Avalos | México | <a href="https://www.byui.edu/online" >BYUi Online Learning</a> | Today's Date: <span id="currentdate"></span>  
 </footer>
+<script src="js/scripts.js"></script>
 
 <script>
+
     const options = {weekday: "long", day: "numeric", month: "long", year: "numeric"}; 
             document.getElementById("currentdate").textContent = new Date().toLocaleDateString("en-US",options);
 
