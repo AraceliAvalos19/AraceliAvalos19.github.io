@@ -11,12 +11,20 @@ body {
     font-family: Be Vietnam;
 }
 
+#ad {
     background-color: #4cbb17;
+    color: #1c3144;
     display: block;
     text-align: center;
     padding: .8rem 0;
     width: 100%;
+}
+
+   #ad > p {
+       margin: 0;
+   }
    
+    
 
 header {
     font-family: Merriweather;
@@ -51,7 +59,7 @@ header img {
     color: #1c3144;;
     display: block;
     text-align: center;
-    font-family: Be Vietnam;
+     font-family: Be Vietnam;
     padding: .8rem 0;
     width: 100%;
 }
