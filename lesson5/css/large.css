@@ -9,7 +9,7 @@
 
     main section {
         margin: 1rem 0;
-        font-family: Be Vietnam;
+        font-family: "Be Vietnam";
     }
  
     #contact, main, footer {
@@ -17,4 +17,5 @@
         margin: auto;
 
 } 
+
 /*end large */
