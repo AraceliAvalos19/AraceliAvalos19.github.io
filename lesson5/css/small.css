@@ -79,10 +79,11 @@ nav ul li a {
     padding: .8rem 2%;
     text-decoration: none;
     color: #1c3144;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
 }
 
-nav ul li.active a {background-color: rgba(0, 0, 0, 0.2)}
-nav ul li a:hoover {background-color: rgba(0, 0, 0, 0.2); color: #f1f1ed;}
+nav ul li.active a{background-color: rgba(0, 0, 0, 0.2)}
+nav ul li a:hover {background-color: rgba(0, 0, 0, 0.2); color: #f1f1ed;}
 nav ul.hide {display: none;}
 
 
