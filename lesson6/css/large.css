@@ -4,12 +4,15 @@
     header {height: 7rem;
     
     }
-    header img {height: 5rem;}
-    nav ul li a{padding: .6rem 1rem;
+    header img {
+        height: 5rem;
+    }
+    
+    nav ul li a {
+        padding: .6rem 1rem;
     
     }
 
-   
     main section {
         margin: 1rem 0;
         font-family: "Be Vietnam";
