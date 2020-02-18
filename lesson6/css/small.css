@@ -119,7 +119,7 @@ picture.hero {
 	top: 1rem;
     right: 9rem;
 	background: #161c14;
-	opacity: .8;
+	opacity: .6;
     font-size: 1.0em;
    
     font-weight: bolder;
@@ -153,9 +153,10 @@ img.snowmoon {
     height: 16rem;
     padding: .5rem;
     display: flex;
+    
 }
 
-.img map {
+.map {
     display: none;
 }
 
