@@ -115,10 +115,14 @@ picture.hero {
     margin: 0 2%;
 }
 
+#herowsummary {
+    position: relative;
+}
+
 .weathertoday {
     position: absolute;
-	top: 34%;
-	left: 65%;
+	top: 2rem;
+	right: 2rem;
 	background: #161c14;
 	opacity: .8;
     font-size: 1.0em;
@@ -158,10 +162,9 @@ img.snowmoon {
 
 
 
-#contact map {
-    height: 18rem;
-    margin: 0.5;
-    display: initial;
+.map {
+  
+  display: none;
 }
 
 #info p {

@@ -14,7 +14,8 @@
     
     }
 #herowsummary div {
-    grid-template-columns: 7rem 4rem;
+    grid-template-columns: 10rem 10rem 10rem 10rem 10rem;
+    margin: 0 auto;
 }
 
 #Forecast {
@@ -33,9 +34,11 @@ img.snowmoon {
     margin-right: .2rem;
 }
 
-#map {
+.map {
     display: block;
+    width: 40%;
 }
+
 .clearfix:after {
     content: "";
     display: table;
