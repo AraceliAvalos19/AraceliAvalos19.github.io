@@ -121,12 +121,12 @@ picture.hero {
 
 .weathertoday {
     position: absolute;
-	top: 2rem;
-	right: 2rem;
+	top: 1rem;
+    right: 9rem;
 	background: #161c14;
 	opacity: .8;
     font-size: 1.0em;
-    height: 300px;
+   
     font-weight: bolder;
     color: #fff;
 }
@@ -160,11 +160,9 @@ img.snowmoon {
     display: flex;
 }
 
+.img map {
 
-
-.map {
-  
-  display: none;
+ display: none;
 }
 
 #info p {
