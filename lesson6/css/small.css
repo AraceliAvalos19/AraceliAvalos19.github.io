@@ -1,0 +1,203 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+body {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+
+    font-size: medium;
+    background-color: #161c14;
+    color: #f1f1ed;
+    font-family: "Be Vietnam";
+}
+
+#ad {
+    background-color: #4cbb17;
+    color: #1c3144;
+    display: block;
+    text-align: center;
+    padding: .8rem 0;
+    width: 100%;
+}
+
+   #ad > p {
+       margin: 0;
+   }
+   
+    
+
+header {
+  
+  
+    font-family: "Merriweather";
+    background-color: #1c3144;
+    display: flex;
+    height: 6rem;
+    padding: .5rem;
+    align-items: center;
+    justify-content: center;
+    color: #f1f1ed;
+}
+
+header div {
+    display: flex;
+}
+
+header section {
+    text-align: center;
+    margin: auto 0;
+    flex: 1;
+}
+
+header img {
+    flex: .1;
+    margin: auto 0;
+    display: block;
+    height: 4rem;
+}
+
+nav button {
+    margin: .2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: #1c3144;
+}
+
+nav {
+    background-color: #4cbb17;
+    font-family: "Be Vietnam";
+ }
+ 
+nav ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0;
+    font-weight: 800;
+}
+
+nav ul li a {
+    display: block;
+    padding: .8rem 2%;
+    text-decoration: none;
+    color: #1c3144;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+nav ul li.active a{background-color: rgba(0, 0, 0, 0.2)}
+nav ul li a:hover {background-color: rgba(0, 0, 0, 0.2); color: #f1f1ed;}
+nav ul.hide {display: none;}
+
+
+
+
+
+   
+main {
+    
+    text-align: center;
+}
+
+main section {
+    background-color: #161c14;
+    margin: .5rem .3rem;
+    padding: .7rem;
+    text-align: start;
+}
+
+picture.hero {
+    display: block;
+    width: 96%;
+    margin: 0 2%;
+}
+
+.weathertoday {
+    position: absolute;
+	top: 34%;
+	left: 65%;
+	background: #161c14;
+	opacity: .8;
+    font-size: 1.0em;
+    height: 300px;
+    font-weight: bolder;
+    color: #fff;
+}
+
+#Forecast {
+   display: none;
+   justify-content: center;
+}
+
+
+
+#Forecast h2 {
+    grid-column-start: span 5;
+    justify-self: center;
+}
+
+#Forecast h3 {
+    justify-self: center;
+}
+
+img.snowmoon {
+    width: 100%;
+    max-width: 400px;
+    float: left;
+    padding-right: 2rem;
+}
+#contact {
+    background-color: #4cbb17;
+    height: 16rem;
+    padding: .5rem;
+    display: flex;
+}
+
+
+
+#contact map {
+    height: 18rem;
+    margin: 0.5;
+    display: initial;
+}
+
+#info p {
+   padding-left: 220px;
+   
+}
+
+#info img.media {
+    
+    height: 2rem;
+     
+}
+#info {
+    font-size: 0.8rem;
+}
+
+footer {
+    height: 5rem;
+    text-align: center;
+    background-color: #1c3144;
+    color: #f1f1ed;
+    padding: 1.5px;
+  
+}
+
+
+
+
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+
+
