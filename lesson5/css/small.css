@@ -116,7 +116,7 @@ main section {
     top: 2rem;
     right: 2rem;
     display: grid;
-    grid-template: columns: 5rem 3rem;
+    grid-template: columns 5rem 3rem;
     background-color: #161c14;
     padding: 2rem;
 }
