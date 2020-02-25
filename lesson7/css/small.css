@@ -4,6 +4,7 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 /*----------- apply a natural box layout model to all elements --------------*/
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
+
 body {
     width: 100%;
     max-width: 1000px;
@@ -76,7 +77,8 @@ nav ul li a {
 nav ul li.active a{background-color: rgba(0, 0, 0, 0.2)}
 nav ul li a:hover {background-color: rgba(0, 0, 0, 0.2); color: #f1f1ed;}
 nav ul.hide {display: none;}
-   
+
+
 
 
 footer {
@@ -101,13 +103,16 @@ footer {
       display: grid;
       justify-content: center;
       margin: auto;
+     
+    }
+
+    img[data-src] {
+        filter: blur(3px);
+        transition: filter 2s;
+      }
       
-  }
-
-  
-
-
-
+      
+      
 
 
 .clearfix:after {
