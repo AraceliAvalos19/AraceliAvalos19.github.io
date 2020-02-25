@@ -103,10 +103,12 @@ footer {
       display: grid;
       justify-content: center;
       margin: auto;
-     figure:hover 
-     box-shadow 0  0 30px #7c7b7b;
+  
     }
 
+  .newphotos:hover> src { 
+     box-shadow: 0  0 30px #7c7b7b;
+  }
   
     img[data-src] {
         filter: blur(0.2em);
