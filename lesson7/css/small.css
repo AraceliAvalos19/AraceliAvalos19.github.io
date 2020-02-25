@@ -110,17 +110,17 @@ footer {
      box-shadow: 0  0 30px #7c7b7b;
   }
   
-    img[data-src] {
-        filter: blur(0.2em);
-        
-      }
-      
+  
        img {
         filter: blur(0);
         transition: filter 3s;
       }
     
-     
+      img[data-src] {
+        filter: blur(0.2em);
+        
+      }
+      
       
 
 
