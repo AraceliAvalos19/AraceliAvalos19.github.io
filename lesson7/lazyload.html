@@ -6,8 +6,9 @@
     <meta name="images" content="Loading images">
     <title>Lazy Loading</title>
     <meta name="Progresive Loading" content="Lazy Loading Images">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href="css/normalize.css" rel="stylesheet">
 
-    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/lazyload.css">
 
 </head>
@@ -19,7 +20,7 @@
         <div>
             
             <picture>
-            <img src="images/Campechebeach.jpg" alt= "Campeche"  >
+            <img src="images/noimageavailable.jpg" data-src="images/Campechebeach.jpg" alt= "Campeche">
             </picture>
             <picture>
             <img src="images/Comalcalcosite.jpg" alt="Comalcalco">
@@ -39,5 +40,5 @@
     <script src="js/lazyload.js"></script>
 
 </body>
+</html>
 
-up
