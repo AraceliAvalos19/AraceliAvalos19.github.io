@@ -105,13 +105,16 @@ footer {
       margin: auto;
      
     }
-
     img[data-src] {
-        filter: blur(3px);
-        transition: filter 2s;
+        filter: blur(0.2em);
       }
       
-      
+       img {
+        filter: blur(0);
+        transition: filter 1s;
+      }
+    
+     
       
 
 
