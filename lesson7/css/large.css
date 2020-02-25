@@ -22,8 +22,7 @@
     #main {
         width: 60rem;
         margin: auto;
-
-} 
+    } 
 
     .newphotos{
         grid-template-columns: 1fr 1fr 1fr;
