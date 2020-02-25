@@ -22,31 +22,9 @@ nav ul li a {
 }
 
 
-#herowsummary div {
-    grid-template-columns: 10rem 10rem 10rem 10rem 10rem;
-    margin: 0 auto;
-}
 
-#Forecast {
-    display: grid;
-}
 
-img.snowmoon {
-    width: 30%
-}
-#contact {
-    flex-direction: row;
-    height: 12rem;
-}
 
-#contact > div {
-    margin-right: .2rem;
-}
-
-.map {
-    display: block;
-    width: 40%;
-}
 
 .clearfix:after {
     content: "";

@@ -1,0 +1,44 @@
+ /* 64em is also 1028px when basefont is 16px */
+ @media only screen and (min-width: 64rem) {
+
+   
+    header {height: 7rem;
+    
+    }
+    header img {
+        height: 5rem;
+    }
+    
+    nav ul li a {
+        padding: .6rem 1rem;
+    
+    }
+
+    main section {
+        margin: 1rem 0;
+        font-family: "Be Vietnam";
+    }
+ 
+    #main {
+        width: 60rem;
+        margin: auto;
+
+} 
+
+    .newphotos{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .newphotos figure:hover {
+        box-shadow: 0  0 20px #7c7b7b;
+    }
+}
+
+
+   
+
+   
+    
+    
+   
+/*end large */
+
