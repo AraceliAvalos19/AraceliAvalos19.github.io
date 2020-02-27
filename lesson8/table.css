@@ -6,8 +6,10 @@ html {
     border-collapse: collapse;
     border: 2px solid rgb(200,200,200);
     letter-spacing: .9px;
-    font-size: 1rem;
+    font-size: 1.1rem;
+    font-weight: 800;
     color: rgb(61, 59, 59);
+    box-shadow: 5px 10px  #e7f8fa; 
    
   }
   
@@ -24,7 +26,12 @@ html {
  thead {
      background-color: #7fb9c2;
      font-size: 1.5rem;
-     font-weight: 700;
+     font-weight: bolder;
+     padding: 2px;
+ }
+
+ .bc {
+   font-style: italic;
  }
 
 
