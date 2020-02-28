@@ -9,7 +9,7 @@ html {
     font-size: 1.1rem;
     font-weight: 800;
     color: rgb(61, 59, 59);
-    box-shadow: 5px 10px  #e7f8fa; 
+    box-shadow: 10px 10px 15px #628ca6;
    
   }
   
@@ -25,7 +25,7 @@ html {
 
  thead {
      background-color: #7fb9c2;
-     font-size: 1.5rem;
+     font-size: 2rem;
      font-weight: bolder;
      padding: 2px;
  }
