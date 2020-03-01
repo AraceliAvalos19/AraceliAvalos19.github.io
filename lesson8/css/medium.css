@@ -21,7 +21,19 @@
         padding: 8rem 1rem;
     }
     
-   .newphotos {
-    grid-template-columns: 1fr 1fr;
-}
-}
+    
+    
+    
+    
+    
+    .clearfix:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    
+    
+    
+    } 
+    /*end medium */
+    

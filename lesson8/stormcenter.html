@@ -19,8 +19,7 @@
 </head>
 
 <body>
-    <div id="ad"><p>Preston Pancakes in the Park!</p> <p>9:00 am Saturday in the city park</p>
-    </div>
+   
    <!-- HEADER HERE -->
 	<header>
      
@@ -56,6 +55,7 @@
 <!-- CONTENT HERE -->
   <main>
         <h2>Storm Center</h2>
+       <div id="format">
         <form method="get" action="thanks.html">
 
             <fieldset>
@@ -79,8 +79,12 @@
                     </datalist>
                     <label>Storm Severity<input type="range" id="storange" value="5" min="1" max="10" step="1"
                         oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
-                        <span id="severity">5</span>
+                        <span id="severity"></span>
                     </label>
+                    <div class="spaces">
+                    </div>
+                   
+
                     <label>Storm Region<select name="region">
                         <option value="">Storm Region</option>
                         <option value="preston">Preston</option>
@@ -102,11 +106,16 @@
             <fieldset>
                 <legend>Comments</legend>
                     <label class="square">Add your comments here<textarea name="comments" rows="6" cols="75"></textarea></label>
-            </fieldset>
+        
 
             <input id="reportBtn" type="submit" value="Send my Report">
+        </fieldset>
         </form>
+    </div>
     </main>
+    <div class="space">
+
+    </div>
     <footer>
         <p>&copy; Check the Weather | Attributions | Araceli Ávalos  </p>
         <p><span id="currentdate"></span> </p> 
