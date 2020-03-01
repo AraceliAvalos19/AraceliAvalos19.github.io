@@ -24,23 +24,12 @@
         margin: auto;
     } 
 
-    .newphotos{
-        grid-template-columns: 1fr 1fr 1fr;
+   
     }
     
-    .newphotos figure:hover {
-        box-shadow: 0  0 30px #7c7b7b;
-    }
 
-    .space {
-        background-color: #161c14;
-        width: 100%;
-        height: 5rem;
+   
 
-    }
-
-    
-}
 
 
    

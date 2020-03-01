@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en-us">
+<head>
+<meta charset="utf-8">
+<meta name="stormcenter" content="forms">
+<title>Storm Center Check the Weather Site</title>
+<link href="https://fonts.googleapis.com/css?family=Be+Vietnam|Merriweather|Noto+Serif|Oswald|Roboto:
+      300i&display=swap" rel="stylesheet">
+      
+      <!-- STYLE SHEETS -->
+<link href="css/normalize.css" rel="stylesheet">
+<!-- phone-default -->
+<link href="css/small.css" rel="stylesheet">
+<!-- enhance-tablet -->
+<link href="css/medium.css" rel="stylesheet">
+<!-- enhance-desktop -->
+<link href="css/large.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <div id="ad"><p>Preston Pancakes in the Park!</p> <p>9:00 am Saturday in the city park</p>
+    </div>
+   <!-- HEADER HERE -->
+	<header>
+     
+        <div>
+            <img id="logo" src="images/logotransparente1.png" alt="Logo">
+       <section>
+ <h1 >Check the Weather</h1>
+
+        <h3 style="font-family: Be Vietnam;">No surprises</h3>
+      
+    </section>
+</div>
+    </header>
+
+    <!-- NAVIGATION HERE -->
+    <nav class="clearfix">
+        
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="primaryNav" class="green">
+        <li><a href="index.html">Home</a></li>
+        <li class="active"><a href="">Preston</a></li>
+        <li><a href="#">Soda Springs</a></li>
+        <li><a href="#">Fish Haven</a></li>  
+        <li><a href="#">Storm Center</a></li>
+        <li><a href="#">Gallery</a></li>
+            
+        </ul>
+    </nav>
+
+
+    
+    
+<!-- CONTENT HERE -->
+  <main>
+        <h2>Storm Center</h2>
+        <form method="get" action="thanks.html">
+
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label class="square">Full Name* <input type="text" name="fullName" required pattern="[A-za-z].{4,}" title="Must be at least 5 characters"></label>
+                <label class="square">Email <input type="email" name="e-mail" placeholder="someone@gmail.com"></label>
+                <label class="square">Phone Number* <input type="tel" name="phone" required></label>
+                <label class="square">Zip Code* <input type="number" name="zip" required></label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Storm Information</legend>
+                <label class="square">Storm Date <input type="date" name="stormDate"></label>
+                <label class="square" Storm Type <input list="storm-type" name="stormType"></label>
+                    <datalist id="storm-type">
+                        <option value="Flash Flood">
+                        <option value="Hail">
+                        <option value="Hurricane">
+                        <option value="Thunderstorm">
+                        <option value="Tornado">
+                    </datalist>
+                    <label>Storm Severity<input type="range" id="storange" value="5" min="1" max="10" step="1"
+                        oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+                        <span id="severity">5</span>
+                    </label>
+                    <label>Storm Region<select name="region">
+                        <option value="">Storm Region</option>
+                        <option value="preston">Preston</option>
+                        <option value="sodaSprings">Soda Springs</option>
+                        <option value="fishHaven">Fish Haven</option>
+                        </select>
+                    </label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Storm Risk</legend>
+                    <section class="square">Are you in danger?
+                        <label class="sbs"><input type="radio" name="danger" value="yes">&nbsp; Yes</label>
+                        <label class="sbs"><input type="radio" name="danger" value="maybe">&nbsp; Maybe</label>
+                        <label class="sbs"><input type="radio" name="danger" value="no">&nbsp; No</label>
+                    </section>
+            </fieldset>
+
+            <fieldset>
+                <legend>Comments</legend>
+                    <label class="square">Add your comments here<textarea name="comments" rows="6" cols="75"></textarea></label>
+            </fieldset>
+
+            <input id="reportBtn" type="submit" value="Send my Report">
+        </form>
+    </main>
+    <footer>
+        <p>&copy; Check the Weather | Attributions | Araceli Ávalos  </p>
+        <p><span id="currentdate"></span> </p> 
+    </footer>
+    <script src="js/scripts.js"></script>
+    <script src="js/windchill.js" ></script>
+    
+    
+    
+    <script>
+        const options = {weekday: "long", day: "numeric", month: "long", year: "numeric"}; 
+                document.getElementById("currentdate").textContent = new Date().toLocaleDateString("en-US",options);
+    
+    </script>
+    </body>
+    </html>
