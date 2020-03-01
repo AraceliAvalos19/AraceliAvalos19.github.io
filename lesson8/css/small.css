@@ -187,6 +187,7 @@ footer {
   #format {
       max-width: 50%;
       text-align: left;
+      font-family: "Be Vietnam";
   }
  fieldset {
       margin: auto;
@@ -208,6 +209,7 @@ form label {
 }    
 
 label.square input, select {
+    
     display: block;
     text-align: left;
     border: #f1f1ed;
