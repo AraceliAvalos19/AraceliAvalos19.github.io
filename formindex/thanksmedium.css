@@ -1,0 +1,36 @@
+/* 35em is also 560px (if basefont is 16px) */
+@media only screen and (min-width: 35rem) {
+
+    nav button {
+        display: none;
+    }
+    
+    nav ul {
+        margin: 0 auto;
+        max-width: 43rem;
+    }
+    
+    nav ul li {
+        float: left;
+    }
+    
+    nav ul li a {
+        border: none;
+        border: right 1px solid rgba(0,0, 0 0.3);
+        padding: 1rem;
+    }
+
+    .hide {
+        display: block;
+    }
+    
+    
+    
+ .clearfix:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    
+    }
+     /* end of media query */
