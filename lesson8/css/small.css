@@ -35,7 +35,7 @@ header {
     font-family: "Merriweather";
     background-color: #1c3144;
     display: flex;
-    height: 6rem;
+   
     padding: .5rem;
     align-items: center;
     justify-content: center;
@@ -48,7 +48,7 @@ header div {
 
 header section {
     text-align: center;
-    margin: auto 0;
+    margin: 1rem;
     flex: 1;
 }
 
@@ -78,8 +78,9 @@ nav {
 nav ul{
     list-style-type: none;
     padding: 0px;
-    margin: 0;
+    margin: 0 auto;
     font-weight: 800;
+    max-width: 43rem;
 }
 
 nav ul li a {
