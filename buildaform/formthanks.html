@@ -3,10 +3,10 @@
 <head>
 <meta charset="utf-8">
 <meta name="description" content="Fill Me In">
-<meta name="author" content="John Doe">
+<meta name="author" content="Araceli Avalos">
 
 <!-- This start file was build by Paul Cheney  -->
-<title>HTML5 Start Site by Paul Cheney</title>
+<title>Thanks</title>
 
 <!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH & stops the font from enlarging when a phone is turned sideways-->
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -15,13 +15,13 @@
 
 
 <!-- STYLE SHEETS -->
-<link href="css/normalize.css" rel="stylesheet">
+<link href="thanksnormalize.css" rel="stylesheet">
 <!-- phone-default -->
-<link href="css/small.css" rel="stylesheet">
+<link href="thanksmall.css" rel="stylesheet">
 <!-- enhance-tablet -->
-<link href="css/medium.css" rel="stylesheet">
+<link href="thanksmedium.css" rel="stylesheet">
 <!-- enhance-desktop -->
-<link href="css/large.css" rel="stylesheet">
+<link href="thankslarge.css" rel="stylesheet">
 
 
      
@@ -54,9 +54,18 @@
     </main>
     
     <!-- FOOTER HERE -->   
-        <footer>
-            &copy; 2018 &bull; Paul Cheney &bull; 123-555-6789
-        </footer>
+    <footer>
+        <p>&copy; Check the Weather | Attributions | Araceli Ávalos  </p>
+        <p><span id="currentdate"></span> </p> 
+    </footer>
     <script src="js/scripts.js"></script>
+    
+    
+    
+    <script>
+        const options = {weekday: "long", day: "numeric", month: "long", year: "numeric"}; 
+                document.getElementById("currentdate").textContent = new Date().toLocaleDateString("en-US",options);
+    
+    </script>
     </body>
     </html>
