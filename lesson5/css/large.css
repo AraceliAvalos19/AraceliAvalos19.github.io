@@ -6,12 +6,12 @@
     nav ul li a {padding: .6rem 1rem;}
 
     main section {
-        margin: 1rem 0;
+        margin: 1rem 10rem;
         font-family: "Be Vietnam";
     }
  
-    #contact, main, footer {
-        width: 60rem;
+    #contact, footer{
+        width: 100%;
         margin: auto;
 
 } 

@@ -41,6 +41,7 @@ img.snowmoon {
 
 #map {
     display: block;
+    padding-left: 3rem;
 }
 .clearfix:after {
     content: "";

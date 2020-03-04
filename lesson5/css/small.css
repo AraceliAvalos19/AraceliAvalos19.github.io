@@ -177,13 +177,13 @@ img.snowmoon {
    
 }
 
-#info img.media {
-    
-    height: 2rem;
-     
-}
+
 #info {
     font-size: 0.8rem;
+}
+#socialmedia {
+    padding-left: 250px;
+   
 }
 
 footer {
