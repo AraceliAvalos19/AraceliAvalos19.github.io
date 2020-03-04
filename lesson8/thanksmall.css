@@ -6,10 +6,7 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 
 
 body {
-    width: 100%;
-    max-width: 1000px;
-    margin: 0 auto;
-
+    
     font-size: medium;
     background-color: #161c14;
     color: #f1f1ed;
@@ -179,6 +176,7 @@ img.snowmoon {
 }
 
 footer {
+   
     height: 5rem;
     text-align: center;
     background-color: #1c3144;
@@ -186,6 +184,8 @@ footer {
     padding: 1.5px;
   }
 
+
+ 
   #format {
       max-width: 50%;
       text-align: left;

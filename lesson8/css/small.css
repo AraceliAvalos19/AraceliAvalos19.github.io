@@ -5,10 +5,6 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
 body {
-    width: 100%;
-    max-width: 1000px;
-    margin: 0 auto;
-
     font-size: medium;
     background-color: #161c14;
     color: #f1f1ed;
@@ -28,14 +24,10 @@ body {
        margin: 0;
    }
    
-    
-
-header {
-    
+    header {
     font-family: "Merriweather";
     background-color: #1c3144;
     display: flex;
-   
     padding: .5rem;
     align-items: center;
     justify-content: center;
@@ -177,13 +169,16 @@ img.snowmoon {
     font-size: 0.8rem;
 }
 
-footer {
+
+  footer {
+  
     height: 5rem;
     text-align: center;
     background-color: #1c3144;
     color: #f1f1ed;
     padding: 1.5px;
   }
+  
 
   #format {
       max-width: 50%;
