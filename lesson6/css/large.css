@@ -12,19 +12,18 @@
     }
 
     main section {
-        margin: 1rem 0;
+        margin: 1rem 10;
         font-family: "Be Vietnam";
     }
  
-    #contact, main, footer {
-        width: 60rem;
+    #contact, footer {
+        width: 100%;
         margin: auto;
 
 } 
 
 }
 /*end large */
-
 
 
 
