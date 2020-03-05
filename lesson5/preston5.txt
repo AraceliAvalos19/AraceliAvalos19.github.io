@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="Fill Me In">
+<meta name="author" content="Check the Weather">
+
+<!-- This start file was build by Paul Cheney  -->
+<title>Preston Idaho by Araceli Avalos</title>
+
+<!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH & stops the font from enlarging when a phone is turned sideways-->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Be+Vietnam|Merriweather|Noto+Serif|Oswald|Roboto:
+      300i&display=swap" rel="stylesheet">
+
+
+
+
+<!-- STYLE SHEETS -->
+<link href="css/normalize.css" rel="stylesheet">
+<!-- phone-default -->
+<link href="css/small.css" rel="stylesheet">
+<!-- enhance-tablet -->
+<link href="css/medium.css" rel="stylesheet">
+<!-- enhance-desktop -->
+<link href="css/large.css" rel="stylesheet">
+
+
+
+     
+</head>
+<body>
+    <div id="ad"><p>Preston Pancakes in the Park!</p> <p>9:00 am Saturday in the city park</p>
+    </div>
+   
+    
+<!-- HEADER HERE -->
+	<header>
+     
+        <div>
+            <img id="logo" src="images/logotransparente1.png" alt="Logo">
+       <section>
+ <h1 >Check the Weather</h1>
+
+        <h3 style="font-family: Be Vietnam;">No surprises</h3>
+      
+    </section>
+</div>
+    </header>
+   
+    
+    
+<!-- NAVIGATION HERE -->
+    <nav class="clearfix">
+        
+        <button onclick="toogleMenu()">&#9776;</button>
+        <ul id="primaryNav" class="green">
+        <li><a href="#">Home</a></li>
+        <li class="active"><a href="#">Preston</a></li>
+        <li><a href="#">Soda Springs</a></li>
+        <li><a href="#">Fish Haven</a></li>  
+        <li><a href="#">Storm Center</a></li>
+        <li><a href="#">Gallery</a></li>
+            
+        </ul>
+    </nav>
+
+
+    
+    
+<!-- CONTENT HERE -->
+    <main>
+        <h1>Preston Idaho</h1>
+        <section id="herowsummary">
+            <img id="herowsummaryimg" src="images/Snow.jpeg" alt="landscape">
+            <div class="weathertoday">
+                <h4>Weather Summary</h4>
+      
+                <p class="left">Currently:</p><p class="right" id="currently">Mostly Cloudy</p>
+                <p class="left">High:</p><p class="right" id="high">32°F</p>
+                <p class="left">Low:</p><p class="right" id="low">12°F</p>
+                <p class="left">Wind Chill:</p><p class="right" id="windchill">1°F</p>
+                <p class="left">Wind Speed:</p><p class="right" id="windspeed">5 mph</p>
+                <p class="left">Humidity:</p><p class="right" id="humidity">77 %</p>
+
+
+            </div>
+        </section>
+
+        <div id="Forecast">
+            <h2>5 Forecast</h2>
+            <h3 id="day1">Day 1</h3>
+            <h3 id="day2">Day 2</h3>
+            <h3 id="day3">Day 3</h3>
+            <h3 id="day4">Day 4</h3>
+            <h3 id="day5">Day 5</h3>
+            <div id="weather1" class="weather"><img src="images/cloudyy.jpg" alt="cloudy"></div>
+            <div id="weather2" class="weather"><img src="images/sunny.jpg" alt="sunny"></div>
+            <div id="weather3" class="weather"><img src="images/mostlycloudy.jpg" alt="cloudy"></div>
+            <div id="weather4" class="weather"><img src="images/cloudyy.jpg" alt="cloudy"></div>
+            <div id="weather5" class="weather"><img src="images/cloudyy.jpg" alt="cloudy"></div>
+            <h3 id="temp1" class="temp">28/19°F</h3>
+            <h3 id="temp2" class="temp">31/13°F</h3>
+            <h3 id="temp3" class="temp">26/6°F</h3>
+            <h3 id="temp4" class="temp">28/18°F</h3>
+            <h3 id="temp5" class="temp">31/20°F</h3>
+            </div>
+
+        <section>
+    
+
+         <h2>February: Snow Moon</h2>
+         <img class="snowmoon" src="images/miluna.jpeg" alt="Februarymoon">
+
+       
+        <p>The February Full Moon is named after the snow on the ground. 
+            Some Native American tribes named this the Hunger Moon; 
+            others called it the Storm Moon. </p>
+        <p>On our climate pages, you can see which month is the coldest,
+            warmest, wettest, and windiest in cities all over the world.</p>
+        <p> It is the cold, rising air that maximizes snowfall. The snowiest
+            place in the United States is Paradise Ranger Station on Mount Rainier,
+            WA, according to Alaska-based climatologist Dr. Brian Brettschneider 
+            who has studied 30 years of snowfall in the US. The snowiest incorporated 
+            city is Valdez, Alaska, while the snowiest place east of the Rockies 
+            is Mount Washington Observatory in New Hampshire.</p>
+        <p>February is the record snow month in some areas of the US, including in
+            New York City, Philadelphia, Kansas City, Louisville, Portland,
+            Tahoe City, and Washington DC. </p>
+        <p>However, December and January hold the snowfall record in far more places,
+            March and April in fewer places, and in some areas of Alaska, October and
+            November statistically get the most snow.</p>
+       </section>
+    </main>
+
+       
+<div id="contact">
+    
+    <img class="map" src="images/new map.JPG" alt="Prestonmap">
+    
+    <div id="info">
+     
+        <p><img src="images/Locationn.png" alt="ishere"> 30 N 1st E. 
+        Preston, ID 83263</p>
+     
+        <p><img src="images/phone.png" alt="call"> 999.999.9999></p>
+        
+        <p><img src="images/mail.png" alt="write"> checkthewether@ctw.com</p>
+        <br>
+    </div>
+     <div id="socialmedia">   
+         <p><a href="https://www.facebook.com" target"_blank"><img class="media" src="images/fb4.png" alt="fb"></a></p>
+         <p><a href="https://www.pinterest.com" target"_blank"><img class="media" src="images/pint4.png" alt="pinterest"></a></p>       
+         <p><a href="https://www.instagram.com" target"_blank"><img class="media" src="images/inst4.png" alt="instagram"></a></p>
+    </div>
+</div>
+            
+<!-- FOOTER HERE -->   
+<footer>
+    <p>&copy; Check the Weather | Attributions | Araceli Ávalos  </p>
+    <p><span id="currentdate"></span> </p> 
+</footer>
+<script src="js/scripts.js"></script>
+
+
+
+<script>
+    const options = {weekday: "long", day: "numeric", month: "long", year: "numeric"}; 
+            document.getElementById("currentdate").textContent = new Date().toLocaleDateString("en-US",options);
+
+</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
