@@ -24,12 +24,22 @@ h1 {
     background-color: rgb(186, 218, 199);
     font-family: "Playfair Display";
     font-style: extra bold;
+    text-align: center;
+   
 }
 
-h2, p {
+h2 {
     font-family: "Roboto";
-    font-style: regular;
+    font-style: medium;
+    text-align: center;
 }
+
+h3 {
+    font-family: "Roboto";
+    font-size: 15px;
+    text-align: center;
+}
+
 
 main section {
     margin-left: 25px;
