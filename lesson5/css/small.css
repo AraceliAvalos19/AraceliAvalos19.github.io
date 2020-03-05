@@ -163,11 +163,8 @@ img.snowmoon {
     padding: .5rem;
     display: flex;
 }
-
-#contact map {
-    height: 18rem;
-    margin: 0.5;
-    display: initial;
+img.map {
+    display: none;
 }
 
 #info p {
@@ -178,7 +175,7 @@ img.snowmoon {
     font-size: 0.8rem;
 }
 #socialmedia {
-    padding-left: 320px;
+    padding-left: 310px;
 }
 
 footer {
