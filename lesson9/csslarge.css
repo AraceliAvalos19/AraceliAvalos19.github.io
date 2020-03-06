@@ -19,28 +19,12 @@
     #contact, footer {
         width: 100%;
         margin: auto;
-
-} 
-
+    }
    
- main {
-        width: 60rem;
-        margin: auto;
-    }
     
-    .space {
-        background-color: #161c14;
-        width: 100%;
-        height: 2rem;
-    }
-
-    .spaces {
-        background-color: #1c3144;
-        width: 100%;
-        height: 2rem;
-    }
+   
     
-
-
+    
+   
 }
 /*end large */

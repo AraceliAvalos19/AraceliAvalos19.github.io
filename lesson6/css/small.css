@@ -157,9 +157,7 @@ img.snowmoon {
 }
 
 #contact map {
-    height: 18rem;
-    margin: 0.5;
-    display: initial;
+   display: none;
 }
 
 #info p {

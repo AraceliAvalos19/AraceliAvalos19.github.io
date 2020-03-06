@@ -144,20 +144,21 @@ picture.hero {
 }
 
 img.snowmoon {
-    width: 100%;
-    max-width: 400px;
+    width: 40%;
+
     float: left;
     padding-right: 2rem;
 }
+
 #contact {
     background-color: #4cbb17;
-    height: 16rem;
+    height: 10rem;
     padding: .5rem;
     display: flex;
 }
 
 #contact map {
-  display: none;
+   display: none;
 }
 
 #info p {
@@ -179,6 +180,7 @@ footer {
     color: #f1f1ed;
     padding: 1.5px;
   }
+
 
 
 .clearfix:after {

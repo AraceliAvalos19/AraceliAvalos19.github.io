@@ -24,49 +24,8 @@
     .hide {
         display: block;
     }
+
    
-
-
-    #contact {
-        background-color: #4cbb17;
-        height: 12rem;
-        padding: .5rem;
-        display: flex;
-    }
-    
-    #contact map {
-        height: 12rem;
-        margin: 0.5;
-        display: initial;
-    }
-    
-    #info p {
-       padding-top: 60x;  
-       padding-left: 270px;
-    }
-    
-    #info {
-        font-size: 0.8rem;
-    }
-    #socialmedia {
-        padding-top: 9px;
-        padding-left: 280px;
-    }
-
-    
-    
-    footer {
-        height: 5rem;
-        text-align: center;
-        background-color: #1c3144;
-        color: #f1f1ed;
-        padding: 1.5px;
-      }
-    
-    
-    
-    
-    
  .clearfix:after {
         content: "";
         display: table;

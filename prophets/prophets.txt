@@ -1,0 +1,88 @@
+header, main, footer {
+    max-width: 1140px;
+    margin: 0 auto;
+   
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax (490px, 1fr));
+}
+
+.cards section {
+    margin: 0.5rem;
+    padding: 0.5rem;
+    background-color: #92BDA3;
+   
+}
+
+h1 {
+    margin: 5px;
+    border: 1px solid #36453B;
+    border-radius: 5px;
+    padding: 15px;
+    background-color: rgb(186, 218, 199);
+    font-family: "Playfair Display";
+    font-style: extra bold;
+    text-align: center;
+   
+}
+
+h2 {
+    font-family: "Roboto";
+    font-style: medium;
+    text-align: center;
+}
+
+h3 {
+    font-family: "Roboto";
+    font-size: 15px;
+    text-align: center;
+}
+
+
+main section {
+    margin-left: 25px;
+}
+
+footer {
+    border-top: silver;
+
+}
+
+.navy {
+    color: teal;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
