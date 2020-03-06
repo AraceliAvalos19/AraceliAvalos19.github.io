@@ -89,44 +89,19 @@
 
  
 
-    <main>
-      <div class="cards"></div>
-      <section>
-        <h2>Additional information about the towns.</h2>
-        <article>
-          <img src="images/fishhaven2.jpg" alt="Fishhaven">
-          <div class="data">
-            <h2>Fish Haven</h2>
-            Originally named Rush Creek, is an unincorporated community along the shores of Bear Lake in Bear Lake County, Idaho, United States. It is 4 km (2.5 miles) north of the Utah border.<br> 
-            The first settlement at Fish Haven was made in 1864. A post office called Fish Haven was established in 1867, and remained in operation until 1962. The community was so named because nearby Bear Lake is a favorite fishing spot.
-          </div>
-        </article>
-        <article>
-          <img src="images/preston2.jpg" alt="Preston">
-          <div class="data">
-            <h2>Preston</h2>
-            Is a city in Franklin County, Idaho, United States. The population was 5,204 at the 2010 census. The city is the county seat of Franklin County. It is part of the Logan, Utah-Idaho Metropolitan Statistical Area.
-          </div>
-        </article>
-        <article>
-          <img src="images/sodasprings2.jpg" alt="Soda Springs">
-          <div class="data">
-            <h2>Soda Springs</h2>
-            Is a city in Caribou County, Idaho, United States. Its population was 3,058 at the 2010 census.<br>
-            The city has been the county seat of Caribou County since the county was organized in 1919. In the 1860s, Soda Springs served as the seat of Oneida County.
-          </div>
-        </article>
-      </section>
-    </main>
-    <footer>
-      &copy; The Best Weather | Attributions | Alejandro G. Marin
-      <br />
-      <a id="wdate"><span id="lastup"></span></a>
-      <script src="js/update.js"></script>
-    </footer>
-    <script src="js/toggleMenu.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
-    <script src="js/webfontload.js"></script>
-    <script src="js/town.js"></script>
-  </body>
+    <!-- FOOTER HERE -->   
+<footer>
+    <p>&copy; Check the Weather | Attributions | Araceli Ávalos  </p>
+    <p><span id="currentdate"></span> </p> 
+</footer>
+<script src="js/scripts.js"></script>
+
+
+
+<script>
+    const options = {weekday: "long", day: "numeric", month: "long", year: "numeric"}; 
+            document.getElementById("currentdate").textContent = new Date().toLocaleDateString("en-US",options);
+
+</script>
+</body>
 </html>
