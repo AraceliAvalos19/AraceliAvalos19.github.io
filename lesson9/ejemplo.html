@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en-us">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Be+Vietnam|Merriweather|Noto+Serif|Oswald|Roboto:
+          300i&display=swap" rel="stylesheet">
+    
+<meta name="Araceli Ávalos" content="Check the Weather">
+<title>Site Home Page</title>
+<meta name="presentation" content="The towns">
+
+   <!-- STYLE SHEETS -->
+<link href="css/normalize.css" rel="stylesheet">
+<!-- phone-default -->
+<link href="css/small.css" rel="stylesheet">
+<!-- enhance-tablet -->
+<link href="css/medium.css" rel="stylesheet">
+<!-- enhance-desktop -->
+<link href="css/large.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <div id="ad"><p>Preston Pancakes in the Park!</p> <p>9:00 am Saturday in the city park</p>
+    </div>
+   
+<!-- HEADER HERE -->
+	<header>
+     
+        <div>
+            <img id="logo" src="images/logotransparente1.png" alt="Logo">
+    <section>
+        <h1 >Check the Weather</h1>
+
+        <h3 style="font-family: Be Vietnam;">No surprises</h3>
+      
+    </section>
+</div>
+    </header>
+
+    <!-- NAVIGATION HERE -->
+    <nav class="clearfix">
+        
+        <button onclick="toogleMenu()">&#9776;</button>
+        <ul id="primaryNav" class="green">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">Preston</a></li>
+        <li><a href="#">Soda Springs</a></li>
+        <li><a href="#">Fish Haven</a></li>  
+        <li><a href="#">Storm Center</a></li>
+        <li><a href="#">Gallery</a></li>
+            
+        </ul>
+    </nav>
+
+
+  
+    "name": "Fish Haven",
+    "photo": "fishhaven.jpg",
+    "motto": "This is Fish Heaven.",
+    "yearFounded": 1864,
+    "currentPopulation": 501,
+    "averageRainfall": 14.20,
+
+    name": "Preston",
+    "photo": "preston.jpg",
+    "motto": "Home of Napoleon Dynamite.",
+    "yearFounded": 1866,
+    "currentPopulation": 5204,
+    "averageRainfall": 16.65,
+
+    "name": "Soda Springs",
+    "photo": "sodasprings.jpg",
+    "motto": "Historic Oregon Trail Oasis. The Soda is on Us.",
+    "yearFounded": 1858,
+    "currentPopulation": 2985,
+    "averageRainfall": 15.75,
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+    <main>
+      <div class="cards"></div>
+      <section>
+        <h2>Additional information about the towns.</h2>
+        <article>
+          <img src="images/fishhaven2.jpg" alt="Fishhaven">
+          <div class="data">
+            <h2>Fish Haven</h2>
+            Originally named Rush Creek, is an unincorporated community along the shores of Bear Lake in Bear Lake County, Idaho, United States. It is 4 km (2.5 miles) north of the Utah border.<br> 
+            The first settlement at Fish Haven was made in 1864. A post office called Fish Haven was established in 1867, and remained in operation until 1962. The community was so named because nearby Bear Lake is a favorite fishing spot.
+          </div>
+        </article>
+        <article>
+          <img src="images/preston2.jpg" alt="Preston">
+          <div class="data">
+            <h2>Preston</h2>
+            Is a city in Franklin County, Idaho, United States. The population was 5,204 at the 2010 census. The city is the county seat of Franklin County. It is part of the Logan, Utah-Idaho Metropolitan Statistical Area.
+          </div>
+        </article>
+        <article>
+          <img src="images/sodasprings2.jpg" alt="Soda Springs">
+          <div class="data">
+            <h2>Soda Springs</h2>
+            Is a city in Caribou County, Idaho, United States. Its population was 3,058 at the 2010 census.<br>
+            The city has been the county seat of Caribou County since the county was organized in 1919. In the 1860s, Soda Springs served as the seat of Oneida County.
+          </div>
+        </article>
+      </section>
+    </main>
+    <footer>
+      &copy; The Best Weather | Attributions | Alejandro G. Marin
+      <br />
+      <a id="wdate"><span id="lastup"></span></a>
+      <script src="js/update.js"></script>
+    </footer>
+    <script src="js/toggleMenu.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/webfontload.js"></script>
+    <script src="js/town.js"></script>
+  </body>
+</html>
