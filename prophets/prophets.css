@@ -1,4 +1,4 @@
-header, main, footer {
+header, main {
     max-width: 1140px;
     margin: 0 auto;
    
@@ -6,22 +6,24 @@ header, main, footer {
 
 .cards {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax (490px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax (280px, 1fr));
 }
 
 .cards section {
     margin: 0.5rem;
     padding: 0.5rem;
-    background-color: #92BDA3;
+    background-color: rgb(7, 34, 65);
+    color: white;
    
 }
 
 h1 {
     margin: 5px;
-    border: 1px solid #36453B;
-    border-radius: 5px;
+    border: 1px solid rgb(156, 189, 228);
+    border-radius: 2px;
     padding: 15px;
-    background-color: rgb(186, 218, 199);
+    background-color: rgb(7,34,65);
+    color: white;
     font-family: "Playfair Display";
     font-style: extra bold;
     text-align: center;
@@ -32,12 +34,14 @@ h2 {
     font-family: "Roboto";
     font-style: medium;
     text-align: center;
+    color: white;
 }
 
 h3 {
     font-family: "Roboto";
     font-size: 15px;
     text-align: center;
+    color: white;
 }
 
 
@@ -46,7 +50,16 @@ main section {
 }
 
 footer {
-    border-top: silver;
+    margin: 5px;
+    border: 1px solid rgb(156, 189, 228);
+    border-radius: 2px;
+    padding: 15px;
+    background-color: rgb(7,34,65);
+    color: white;
+    font-family: "Playfair Display";
+    font-style: extra bold;
+    text-align: center;
+   
 
 }
 
@@ -55,85 +68,12 @@ footer {
 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-h1, h2, p, footer {
-    text-align: center;
-}
-
-h1 {
-    font-family: 'Sigmar One', serif;
-    color:#200000;
-}
-main {
-    background-color: rgba(146, 189, 163, 0.4);
-}
-
-h2 {
-    font-family: 'Sigmar One', serif;
-    color: #200000;
-}
-
-p {
-    font-family: 'Lato', sans-serif;
-}
-
-main div.cards {
-    display: grid;
-    grid-template-columns: 1fr;
-    justify-content: center;
-    grid-gap: 10px;
-    padding: 0.5rem;
-    box-shadow: 0 0 25px gray;
-}
-
-div section {
-    padding: 1em;
-    border: 1px solid #36453B;
-    border-radius: 5px;
-    background-color: #92BDA3;
-}
-
-section p {
-    margin: 0;
-    padding: 0;
-}
-
 section img {
     display: block;
     margin: auto;
     margin-top: 15px;
     max-width: 60%;
-    box-shadow: 0 0 15px #200000;
+    box-shadow: 0 0 15px #d6d4d4;
 }
 
 footer {
