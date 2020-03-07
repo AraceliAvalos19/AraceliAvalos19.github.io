@@ -105,73 +105,27 @@ main section {
     text-align: start;
 }
 
-picture.hero {
-    display: block;
-    width: 96%;
-    margin: 0 2%;
+towns section {
+    max-width: 100%;
+    margin: 2px;
+    padding: 10px;
+    border: 1px #f1f1ed;
+    background-color: #1c3144;
+    box-shadow: 4x #f1f1ed;
 }
 
-#herowsummary {
-    position: relative;
+.towns {
+    display: grid;
+    grid-template-columns: 100%;
+    text-align: center;
+    padding: 10px;
 }
 
-.weathertoday {
-    position: absolute;
-	top: 1rem;
-    right: 9rem;
-	background: #161c14;
-	opacity: .6;
-    font-size: 1.0em;
-   
-    font-weight: bolder;
-    color: #fff;
+img {
+    width: 100%;
+    height: auto;
+    border: 2px;
 }
-
-#Forecast {
-   display: none;
-   justify-content: center;
-}
-
-
-
-#Forecast h2 {
-    grid-column-start: span 5;
-    justify-self: center;
-}
-
-#Forecast h3 {
-    justify-self: center;
-}
-
-img.snowmoon {
-    width: 40%;
-
-    float: left;
-    padding-right: 2rem;
-}
-
-#contact {
-    background-color: #4cbb17;
-    height: 10rem;
-    padding: .5rem;
-    display: flex;
-}
-
-#contact map {
-   display: none;
-}
-
-#info p {
-   padding-left: 270px;
-}
-
-#info {
-    font-size: 0.8rem;
-}
-#socialmedia {
-    padding-left: 320px;
-}
-
 
 footer {
     height: 5rem;
