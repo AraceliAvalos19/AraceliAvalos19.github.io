@@ -98,34 +98,87 @@ main {
     text-align: center;
 }
 
-main section {
-    background-color: #161c14;
-    margin: .5rem .3rem;
-    padding: .7rem;
-    text-align: start;
-}
 
-towns section {
-    max-width: 100%;
-    margin: 2px;
-    padding: 10px;
-    border: 1px #f1f1ed;
-    background-color: #1c3144;
-    box-shadow: 4x #f1f1ed;
+
+main {
+    max-width: 920px;
+    margin: 0 auto;
+   
 }
 
 .towns {
     display: grid;
-    grid-template-columns: 100%;
-    text-align: center;
-    padding: 10px;
+    grid-template-columns: repeat(auto-fit, minmax (300px, 1fr));
 }
 
-img {
-    width: 100%;
-    height: auto;
-    border: 2px;
+.towns section {
+    margin: 0.5rem;
+    padding: 10px;
+    background-color: #1c3144;
+    color: white;
+   
 }
+
+
+
+h2 {
+    font-family: "Roboto";
+    font-size: 22px;
+    text-align: center;
+    color: white;
+}
+
+h3 {
+    
+    font-size: 12px;
+    padding: 5px;
+   
+}
+
+
+
+.towns img {
+    box-shadow: 0 0 8px #bdbdb9;
+    
+}
+
+
+main section {
+    margin-left: 25px;
+}
+
+#emergency {
+    background-color: #bc8d00;
+    color: #1c3144;
+    display: block;
+    text-align: center;
+    padding: .8rem 0;
+    width: 100%;
+}
+
+   #emergency > p {
+       margin: 0;
+   }
+
+  
+
+  
+   #eclipse {
+    background-color: #161c14;
+    color: #f1f1ed;
+    display: block;
+    text-align: center;
+    padding: .8rem 0;
+    width: 100%;
+}
+
+   #eclipse > p {
+       margin: 0;
+   }
+
+   
+
+
 
 footer {
     height: 5rem;
