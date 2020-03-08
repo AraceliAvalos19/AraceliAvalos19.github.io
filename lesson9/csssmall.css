@@ -161,7 +161,7 @@ main section {
        margin: 0;
    }
 
- #eclipse {
+#eclipse {
     background-color: #161c14;
     color: #f1f1ed;
     display: block;
@@ -171,17 +171,17 @@ main section {
     margin: 2px #f1f1ed;
 }
 
-   #eclipse > p {
+#eclipse > p {
        margin: 2px #f1f1ed
    }
 
-   section > .lunar {
+   .lunar {
     margin: none;
     padding: none;
 }
   
 
-.lunar  {
+ .lunar  {
     display: grid;
     grid-template-columns: repeat(3, 290px) ;
 }
