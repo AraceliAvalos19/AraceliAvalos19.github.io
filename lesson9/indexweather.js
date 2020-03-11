@@ -41,4 +41,4 @@ fetch(requestURL)
     town.appendChild(image);
 
     document.querySelector('div.towns').appendChild(town);
-  }});
+  }};

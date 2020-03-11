@@ -108,6 +108,7 @@ main {
 .towns {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax (300px, 1fr));
+   
 }
 
 .towns section {
@@ -115,6 +116,7 @@ main {
     padding: 8px;
     background-color: #1c3144;
     color: white;
+    box-shadow: 0 0 8px #bdbdb9;
 }
 
 h2 {
@@ -132,13 +134,15 @@ h3 {
 
 
 .towns img {
-    box-shadow: 0 0 8px #bdbdb9;
+    box-shadow: 0 0 4px #bdbdb9;
+  
     
 }
 
 
 main section {
     margin-left: 25px;
+ 
 }
 .space {
     background-color: #161c14;
@@ -169,10 +173,13 @@ main section {
     padding: .8rem 0;
     width: 100%;
     margin: 2px #f1f1ed;
+    line-break: auto #f1f1ed;
+ 
 }
 
 #eclipse > p {
        margin: 2px #f1f1ed
+    
    }
 
    .lunar {
@@ -184,6 +191,7 @@ main section {
  .lunar  {
     display: grid;
     grid-template-columns: repeat(3, 290px) ;
+  
 }
 
 #lunareclipseinfo {
