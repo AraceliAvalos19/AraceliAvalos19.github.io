@@ -7,11 +7,11 @@ fetch(requestURL)
   .then(function (jsonObject) {
     console.table(jsonObject);  // temporary checking for valid response and data parsing
 
-  const towns = jsonObject['towns'];
+  const ejemplo = jsonObject['towns'];
 
-  for (let i = 0; i < towns.length; i++ ) {
+  for (let i = 0; i < ejemplo.length; i++ ) {
+      if (towns[i].name =="Fish Haven" || towns[i].namen=="Preston" || towns[i].name == "Soda Springs"){
 
-    if (towns[i].name == "Fish Haven" || towns[i].name =="Preston" || towns[i].name == "Soda Springs"){
     //createElement
     let town = document.createElement('section');
     let h2 = document.createElement("h2");
@@ -22,14 +22,14 @@ fetch(requestURL)
     let image = document.createElement('img');
 
     //variables
-    h2.textContent =towns[i].name;
-    h3.textContent = towns[i].motto;
-    year.textContent = "Year Founded" + towns[i].yearFounded;
-    population.textContent = "Population" + towns[i].currentPopulation;
-    rainfall.textContent = "Anual Rain Fall" + towns[i].averageRainfall;
+    h2.textContent = ejemplo[i].name;
+    h3.textContent = ejemplo[i].motto;
+    year.textContent = "Year Founded" + ejemplo[i].yearFounded;
+    population.textContent = "Population" + ejemplo[i].currentPopulation;
+    rainfall.textContent = "Anual Rain Fall" + ejemplo[i].averageRainfall;
 
     //images
-    image.setAttribute('src', "images/" + towns[i].photo);
+    image.setAttribute('src', "images/" + ejemplo[i].photo);
     image.setAttribute('alt', "picture of:" + h2.textContent);
        
     //append
@@ -41,4 +41,6 @@ fetch(requestURL)
     town.appendChild(image);
 
     document.querySelector('div.towns').appendChild(town);
-  }});
+  }
+}
+  });
