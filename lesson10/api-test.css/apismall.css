@@ -1,0 +1,226 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+body {
+    
+
+    font-size: medium;
+    background-color: #161c14;
+    color: #f1f1ed;
+    font-family: "Be Vietnam";
+}
+
+#ad {
+    background-color: #4cbb17;
+    color: #1c3144;
+    display: block;
+    text-align: center;
+    padding: .8rem 0;
+    width: 100%;
+}
+
+   #ad > p {
+       margin: 0;
+   }
+   
+    
+
+header {
+    font-family: "Merriweather";
+    background-color: #1c3144;
+    display: flex;
+    padding: .5rem;
+    align-items: center;
+    justify-content: center;
+    color: #f1f1ed;
+}
+
+header div {
+    display: flex;
+}
+
+header section {
+    text-align: center;
+    margin: 1rem;
+    flex: 1;
+}
+
+header img {
+    flex: .1;
+    margin: auto 0;
+    display: block;
+    height: 4rem;
+}
+
+
+
+nav button {
+    margin: .2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: #1c3144;
+
+}
+
+nav {
+    padding: 0;
+    background-color: #4cbb17;
+    font-family: "Be Vietnam";
+   
+ }
+ 
+nav ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0;
+    font-weight: 800;
+}
+
+nav ul li a {
+    display: block;
+    padding: .8rem 2%;
+    text-decoration: none;
+    color: #1c3144;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+nav ul li.active a{background-color: rgba(0, 0, 0, 0.2)}
+nav ul li a:hover {background-color: rgba(0, 0, 0, 0.2); color: #f1f1ed;}
+nav ul.hide {display: none;}
+   
+main {
+    
+    text-align: center;
+}
+
+
+
+main {
+    max-width: 920px;
+    margin: 0 auto;
+   
+}
+
+.towns {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax (300px, 1fr));
+   
+}
+
+.towns section {
+    margin: 8px;
+    padding: 8px;
+    background-color: #1c3144;
+    color: white;
+    box-shadow: 0 0 8px #bdbdb9;
+}
+
+h2 {
+    font-family: "Roboto";
+    font-size: 22px;
+    text-align: center;
+    color: white;
+}
+
+h3 {
+    font-size: 12px;
+    padding: 8px;
+}
+
+
+
+.towns img {
+    box-shadow: 0 0 4px #bdbdb9;
+  
+    
+}
+
+
+main section {
+    margin-left: 25px;
+ 
+}
+.space {
+    background-color: #161c14;
+    width: 100%;
+    height: 3rem;
+
+}
+
+#emergency {
+    background-color: #bc8d00;
+    color: #1c3144;
+    display: block;
+    text-align: center;
+    padding: .8rem 0;
+ 
+}
+
+#emergency > p {
+    font-size: 18px;
+       margin: 0;
+   }
+
+#eclipse {
+    background-color: #161c14;
+    color: #f1f1ed;
+    display: block;
+    text-align: center;
+    padding: .8rem 0;
+    width: 100%;
+    margin: 2px #f1f1ed;
+    line-break: auto #f1f1ed;
+ 
+}
+
+#eclipse > p {
+       margin: 2px #f1f1ed
+    
+   }
+
+   .lunar {
+    margin: none;
+    padding: none;
+}
+  
+
+ .lunar  {
+    display: grid;
+    grid-template-columns: repeat(3, 290px) ;
+  
+}
+
+#lunareclipseinfo {
+    font-family: "Be Vietnam";
+    font-size: 12px;
+    text-align: center;
+    color: #f1f1ef;
+    margin: 2px #f1f1ed;
+}
+
+.lunar img {
+ display: block;
+ margin: auto;
+    background-color: #161c14;
+}    
+
+
+footer {
+    height: 5rem;
+    text-align: center;
+    background-color: #1c3144;
+    color: #f1f1ed;
+    padding: 1.5px;
+  }
+
+
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
