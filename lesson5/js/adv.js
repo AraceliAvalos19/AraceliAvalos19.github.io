@@ -1,7 +1,10 @@
-var whatdate  = new Date();
+var day = new Date();
+var d = day.getDay();    
 
-if (whatdate.getDay() == Friday ) {
-  document.querySelector("aside").style.display = "block";
-} else {
-  document.querySelector("aside").style.display = "none";
+if (d != 5) {
+    document.getElementById("adv").style.display = 'none';
+}
+
+function toggleMenu() {
+    document.getElementById("navMenu").classList.toggle("hide");
 }
