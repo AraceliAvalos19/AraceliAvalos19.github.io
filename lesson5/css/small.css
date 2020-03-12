@@ -11,7 +11,7 @@ body {
     font-family: "Be Vietnam";
 }
 
-.ad {
+.adv {
     background-color: #4cbb17;
     color: #1c3144;
     display: block;
@@ -20,7 +20,7 @@ body {
     width: 100%;
 }
 
-   .ad > p {
+   .adv > p {
        margin: 0;
    }
    
