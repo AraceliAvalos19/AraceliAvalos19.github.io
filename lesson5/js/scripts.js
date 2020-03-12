@@ -1,3 +1,8 @@
+WebFont.load({
+    google: {
+    families: ["Merriweather","Be Vietnam"]
+    }
+    });
 
 
 function toggleMenu() {
