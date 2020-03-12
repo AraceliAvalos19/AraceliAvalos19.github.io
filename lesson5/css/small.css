@@ -5,7 +5,7 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
 body {
-    font-size: medium;
+    font-size: 15px;
     background-color: #161c14;
     color: #f1f1ed;
     font-family: "Be Vietnam";
@@ -97,8 +97,8 @@ main {
 
 main section {
     background-color: #161c14;
-    margin: .5rem .3rem;
-    padding: .7rem;
+    margin: 8px 5px;
+    padding: 12px;
     text-align: start;
 }
 
@@ -113,27 +113,28 @@ main section {
 
 #herowsummary div {
     position: absolute;
-    top: 2rem;
-    right: 2rem;
+    top: 40px;
+    right: 60px;
     display: grid;
-    grid-template: columns 5rem 3rem;
+    grid-template-columns: 100px 50px;
     background-color: #161c14;
-    padding: 2rem;
+    opacity: .6;
+    padding: 8px 8px;
 }
 
 #herowsummary div h4 {
     grid-column-start: span 2;
-    justify-self: left;
-    margin: 1;
+    justify-self: center;
+    margin: 0;
 }
 
 #herowsummary div p {
-    margin: 1;
+    margin: 0;
 }
 
 #herowsummary div p.left {
-    justify-self: left;
-    margin-right: .5rem;
+   justify-self: start;
+    margin-right: 6px;
 }
 
 #Forecast {
@@ -159,23 +160,27 @@ img.snowmoon {
 }
 #contact {
     background-color: #4cbb17;
-    height: 16rem;
+    height: 12rem;
     padding: .5rem;
     display: flex;
 }
-img.map {
+#contact > div {
+    flex: 1;
+}
+
+.map {
     display: none;
 }
 
 #info p {
-   padding-left: 270px;
+   padding-left: 20px;
 }
 
 #info {
     font-size: 0.8rem;
 }
 #socialmedia {
-    padding-left: 310px;
+    padding-left: 120px;
 }
 
 footer {
