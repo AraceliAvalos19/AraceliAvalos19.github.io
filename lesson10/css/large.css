@@ -1,0 +1,22 @@
+/* 64em is also 1028px when basefont is 16px */
+@media only screen and (min-width: 64rem) {
+   
+   
+    
+    header img {height: 5rem;}
+    nav ul li a {padding: .6rem 1rem;}
+
+    main section {
+        margin: 1rem 10rem;
+        font-family: "Be Vietnam";
+    }
+ 
+    #contact, footer{
+        width: 1000px;
+        margin: auto;
+
+} 
+
+
+}
+/*end large */
