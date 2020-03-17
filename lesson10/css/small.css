@@ -151,6 +151,14 @@ main section {
 #forecast h3 {
     justify-self: center;
 }
+#forecast .days{
+    display: none;
+    justify-content: center;
+    grid-template-columns: 5rem 5rem 5rem 5rem 5rem;
+    
+}
+
+
 
 img.snowmoon {
     width: 100%;
