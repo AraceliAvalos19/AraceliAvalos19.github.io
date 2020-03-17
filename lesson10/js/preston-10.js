@@ -5,8 +5,9 @@ fetch(apiURL)
     console.log(jsObject);
 
     document.getElementById('currently').textContent = Math.round(jsObject.main.temp);
-    document.getElementById('Wind Speed').textContent = Math.round(jsObject.main.wind.speed);
-    document.getElementById('Humidity').textContent = Math.round(jsObject.main.humidity);
-    document.getElementById('c).textContent = Math.round(jsObject.main.temp);
-
-
+    document.getElementById('max').textContent =Math.round(jsObject.main.temp_max);
+    document.getElementById('windspeed').textContent = Math.round(jsObject.main.wind.speed);
+    document.getElementById('humidity').textContent = Math.round(jsObject.main.humidity);
+    
+ currentTemp.textContent =jsObject.main.temp;
+});
