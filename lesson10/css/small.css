@@ -118,7 +118,7 @@ main section {
     display: grid;
     grid-template-columns: 100px 50px;
     background-color: #161c14;
-    opacity: .6;
+    opacity: .8;
     padding: 8px 8px;
 }
 
@@ -132,23 +132,23 @@ main section {
     margin: 0;
 }
 
-#herowsummary div p.left {
+.herowsummary div p.left {
    justify-self: start;
     margin-right: 6px;
 }
 
-#Forecast {
+#forecast {
     display: none;
     justify-content: center;
     grid-template-columns: 5rem 5rem 5rem 5rem 5rem;
 }
 
-#Forecast h2 {
+#forecast h2 {
     grid-column-start: span 5;
     justify-self: center;
 }
 
-#Forecast h3 {
+#forecast h3 {
     justify-self: center;
 }
 

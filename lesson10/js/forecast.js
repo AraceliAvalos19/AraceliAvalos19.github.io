@@ -1,8 +1,8 @@
-const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=5604473&units=imperial&APPID=3d6a1aee115e55a320ca45412bdf9764";
-fetch(apiURL)
+const forecastapiURL = "https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&APPID=3d6a1aee115e55a320ca45412bdf9764";
+fetch(forecastapiURL)
   .then((response) => response.json())
-  .then((jsObject) => {
-    console.log(jsObject);
+  .then((forecastdata) => {
+    console.log(forecastdata);
 
     document.getElementById('currently').textContent = Math.round(jsObject.main.temp);
     document.getElementById('max').textContent =Math.round(jsObject.main.temp_max);
