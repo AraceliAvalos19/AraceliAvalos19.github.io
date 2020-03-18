@@ -156,12 +156,16 @@ main section {
     color: #1c3144;
     display: block;
     text-align: center;
-    padding: .8rem 0;
+    padding: 1rem 0;
  
+}
+#emergency > h2{
+    text-decoration: underline;
+    color: #1c3144;
 }
 
 #emergency > p {
-    font-size: 18px;
+    font-size: 15px;
        margin: 0;
    }
 
