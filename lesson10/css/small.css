@@ -160,7 +160,8 @@ main section {
 }
 
 .events {
-    width: auto;
+    width: 500px;
+    justify-content: center;
     background-color: #bc8d00;
     color: #1c3144;
     display: block;
@@ -186,7 +187,7 @@ img.snowmoon {
 }
 #contact {
     background-color: #4cbb17;
-    height: 12rem;
+    height: 15rem;
     padding: .5rem;
     display: flex;
 }
