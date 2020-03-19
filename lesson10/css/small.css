@@ -160,6 +160,7 @@ main section {
 }
 
 .events {
+    width: auto;
     background-color: #bc8d00;
     color: #1c3144;
     display: block;
@@ -193,7 +194,7 @@ img.snowmoon {
     flex: 1;
 }
 
-.map {
+#map {
     display: none;
 }
 
