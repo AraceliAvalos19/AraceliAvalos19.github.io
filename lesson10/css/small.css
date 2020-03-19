@@ -161,7 +161,9 @@ main section {
 
 .events {
     width: 500px;
-    justify-content: center;
+    display:block;
+  margin-left: auto;
+  margin-right: auto;
     background-color: #bc8d00;
     color: #1c3144;
     display: block;
