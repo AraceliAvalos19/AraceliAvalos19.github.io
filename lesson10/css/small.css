@@ -116,7 +116,7 @@ main section {
     top: 40px;
     right: 60px;
     display: grid;
-    grid-template-columns: 100px 50px;
+    grid-template-columns: 110px 50px;
     background-color: #161c14;
     opacity: .8;
     padding: 8px 8px;
@@ -135,6 +135,7 @@ main section {
 .herowsummary div p.left {
    justify-self: start;
     margin-right: 6px;
+    padding-left: 3px;
 }
 
 #forecast {
@@ -157,6 +158,24 @@ main section {
     justify-content: center;
     grid-template-columns: 5rem 5rem 5rem 5rem 5rem;
 }
+
+.events {
+    background-color: #bc8d00;
+    color: #1c3144;
+    display: block;
+    text-align: center;
+    padding: 1rem 0;
+ 
+}
+.events > h2{
+    text-decoration: underline;
+    color: #1c3144;
+}
+
+.events > p {
+    font-size: 15px;
+       margin: 0;
+   }
 
 img.snowmoon {
     width: 100%;

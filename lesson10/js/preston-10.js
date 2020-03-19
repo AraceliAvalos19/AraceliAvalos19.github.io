@@ -4,10 +4,17 @@ fetch(apiURL)
   .then((jsObject) => {
     console.log(jsObject);
 
-    document.getElementById('currently').textContent = Math.round(jsObject.main.temp);
-    document.getElementById('max').textContent =Math.round(jsObject.main.temp_max);
-    document.getElementById('windspeed').textContent = Math.round(jsObject.wind.speed);
-    document.getElementById('humidity').textContent = Math.round(jsObject.main.humidity);
- currentTemp.textContent =jsObject.main.temp;
+    
+
+    document.getElementById('current-temp').textContent = Math.round(jsObject.main.temp) + "°F";
+    document.getElementById('high').textContent =Math.round(jsObject.main.temp_max) + "°F";
+    document.getElementById('humidity').textContent = Math.round(jsObject.main.humidity) + "%";
+    document.getElementById('windspeed').textContent = Math.round(jsObject.wind.speed) + " mph";
+    currentTemp.textContent =jsObject.main.temp;
 });
+
+
+
+
+  
 

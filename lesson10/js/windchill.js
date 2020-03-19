@@ -1,10 +1,8 @@
-let t = jsObject.main.temp;
-let s = jsObject.wind.speed;
-
-if (t <= 50 && s > 3) {
-  let chill = 35.74 + 0.6215 * t - 35.75 * Math.pow(s, .16) + 0.4275 * t * Math.pow(s, .16);
-  document.getElementById("windchill").textContent = chill.toFixed(0) + " ˚F"; 
-} else {
-  document.getElementById("windchill").textContent = "N/A"; 
+{
+var temperature, speed, chill;
+temperature = document.getElementById("high").innerHTML;
+speed = document.getElementById("windspeed").innerHTML;
+chill = 35.74 + 0.6215 * temperature - 35.75 * Math.pow(speed, 0.16) + 0.4275 * temperature * Math.pow(speed, 0.16);
+if (chill == NaN) document.getElementById("windchill").innerHTML = "N/A";
+else document.getElementById("windchill").innerHTML = chill.toFixed(0) + " °F";
 }
-
