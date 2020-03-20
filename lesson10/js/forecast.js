@@ -20,7 +20,7 @@ fetch(forecastApiURL)
     }
 
     for (i=0; i<40; i++) {
-        if (forecastData.list[i].dt_txt.indludes("18:00:00")) {
+        if (forecastData.list[i].dt_txt.includes("18:00:00")) {
             var imagesrc='https://openweathermap.org/img/w/' + forecastData.list[i].weather[0].icon + '.png';
             var desc = forecastData.list[i].weather[0].description;
 

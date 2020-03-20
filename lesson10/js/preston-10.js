@@ -6,10 +6,10 @@ fetch(apiURL)
 
     
 
-    document.getElementById('current-temp').textContent = Math.round(jsObject.main.temp) + "°F";
-    document.getElementById('high').textContent =Math.round(jsObject.main.temp_max) + "°F";
-    document.getElementById('humidity').textContent = Math.round(jsObject.main.humidity) + "%";
-    document.getElementById('windspeed').textContent = Math.round(jsObject.wind.speed) + " mph";
+    document.getElementById('current-temp').textContent = Math.round(jsObject.main.temp);
+    document.getElementById('high').textContent =Math.round(jsObject.main.temp_max);
+    document.getElementById('humidity').textContent = Math.round(jsObject.main.humidity);
+    document.getElementById('windspeed').textContent = Math.round(jsObject.wind.speed);
     currentTemp.textContent =jsObject.main.temp;
 });
 
