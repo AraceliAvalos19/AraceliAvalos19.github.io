@@ -142,7 +142,7 @@ main section {
     display: none;
     color: white;
     justify-content: center;
-    grid-template-columns: 5rem 5rem 5rem 5rem 5rem;
+    grid-template-columns: 9rem 9rem 9rem 9rem 9rem;
 }
 
 #forecast h2 {
@@ -157,11 +157,11 @@ main section {
 #forecast .days {
     display: none;
     justify-content: center;
-    grid-template-columns: 5rem 5rem 5rem 5rem 5rem;
+    grid-template-columns: 9rem 9rem 9rem 9rem 9rem;
 }
 
 .events {
-    width: 500px;
+    width: 600px;
     display:block;
   margin-left: auto;
   margin-right: auto;
@@ -172,6 +172,8 @@ main section {
     padding: 1rem 0;
  
 }
+
+
 .events > h2{
     text-decoration: underline;
     color: #1c3144;
