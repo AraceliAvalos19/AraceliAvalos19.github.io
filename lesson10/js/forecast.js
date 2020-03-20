@@ -12,11 +12,11 @@ fetch(forecastApiURL)
     console.log(day);
 
     for (i=1; i<6; i++) {
-        var forecastDay = day +1;
+        var forecastDay = day + i;
         if (forecastDay >=7){
             forecastDay = forecastDay -7;
         }
-        document.getElementById('day'+ 1).textContent = daylist [forecastDay];  
+        document.getElementById('day'+ i).textContent = daylist [forecastDay];  
     }
 
     for (i=0; i<40; i++) {
