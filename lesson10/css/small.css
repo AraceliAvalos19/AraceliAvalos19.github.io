@@ -167,6 +167,7 @@ main section {
   margin-right: auto;
     background-color: #bc8d00;
     color: #1c3144;
+    border: #1c3144 solid;
     display: block;
     text-align: center;
     padding: 1rem 0;
@@ -177,6 +178,7 @@ main section {
 .events > h2{
     text-decoration: underline;
     color: #1c3144;
+   
 }
 
 .events > p {
