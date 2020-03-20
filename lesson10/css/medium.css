@@ -45,15 +45,14 @@ img.snowmoon {
 #map{
     display: block;
     float: left;
-    margin
+  
    
 }
 
 #map > iframe {
     width: 288px;
      height: 180px;
-      frameborder: 0; 
-      style: border 0;
+    
 }
 
 #info p {
