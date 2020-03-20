@@ -7,7 +7,7 @@ fetch(forecastApiURL)
     var g = 1;
 
     var today = new Date();
-    var day = today.getDate();
+    var day = today.getDay();
     var daylist = ["Sun", "Mon", "Tues", "Wed", "Thur", "Fri", "Sat"];
     console.log(day);
 
