@@ -171,6 +171,7 @@ main section {
     display: block;
     text-align: center;
     padding: 1rem 0;
+    box-shadow: 0  0 10px #7c7b7b;
  
 }
 
