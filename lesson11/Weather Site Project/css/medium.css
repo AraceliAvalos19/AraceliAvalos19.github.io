@@ -46,6 +46,12 @@ img.snowmoon {
     display: block;
    
 }
+#map > iframe {
+    width: 288px;
+     height: 180px;
+    
+}
+
 
 #info p {
     padding-left: 120px;

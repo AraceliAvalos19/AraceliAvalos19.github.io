@@ -159,14 +159,19 @@ main section {
     grid-template-columns: 5rem 5rem 5rem 5rem 5rem;
 }
 
+
 .events {
-    width: 500px;
-    justify-content: center;
+    width: 600px;
+    display:block;
+  margin-left: auto;
+  margin-right: auto;
     background-color: #bc8d00;
     color: #1c3144;
+    border: #1c3144 solid;
     display: block;
     text-align: center;
     padding: 1rem 0;
+    box-shadow: 0  0 10px #7c7b7b;
  
 }
 .events > h2{
