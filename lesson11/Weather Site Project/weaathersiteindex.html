@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<meta name="Araceli Ávalos" content="Check the Weather">
+<title>Site Home Page</title>
+<meta name="presentation" content="The towns">
+
+   <!-- STYLE SHEETS -->
+<link href="css/cssnormalize.css" rel="stylesheet">
+<!-- phone-default -->
+<link href="css/cssmedium.css" rel="stylesheet">
+<!-- enhance-tablet -->
+<link href="css/csslarge.css" rel="stylesheet">
+<!-- enhance-desktop -->
+<link href="css/csssmall.css" rel="stylesheet">
+<script src="js/indexweather.js"></script>
+
+
+</head>
+
+<body>
+   
+   
+<!-- HEADER HERE -->
+	<header>
+     
+        <div>
+            <img id="logo" src="ejemplo.imagenes/ejemplotransparetlogo.png" alt="Logo">
+    <section>
+        <h1>Check the Weather</h1>
+
+        <p style="font-family: Be Vietnam;">No surprises</p>
+      
+    </section>
+</div>
+    </header>
+
+   <!-- NAVIGATION HERE -->
+   <nav class="clearfix">
+        
+    <button onclick="toogleMenu()">&#9776;</button>
+    <ul id="primaryNav" class="green">
+    <li class="active"><a href="#">Home</a></li>
+    <li><a href="../lesson5/preston5.html">Preston</a></li>
+    <li><a href="">Soda Springs</a></li>
+    <li><a href="#">Fish Haven</a></li>  
+    <li><a href="../lesson8/stormcenter.html">Storm Center</a></li>
+    <li><a href="../lesson7/gallery-7.html">Gallery</a></li>
+        
+    </ul>
+</nav>
+<div class="space"></div>
+
+    <main>
+        <div class="towns"></div>  
+           </main> 
+<main>     
+           
+        <div class="space"></div>
+        <div id="emergency">
+<h2>CORONAVIRUS</h2>            
+<p>Frequently clean hands with soap and water or alcohol-based hand cleaner.  </p>
+<p> Cover nose and mouth with a tissue or elbow when coughing or sneezing.</p>
+<br>
+    <a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019">Updates on COVID-19 are available from the World Health Organization. </a>
+    <br>       
+</div>
+     
+        
+
+        <div class="space"></div>
+
+<div id="eclipse">
+<h2>Global Event: Penumbral Lunar Eclipse</h2>
+<hr>
+<p>A penumbral lunar eclipse will begin on July 4, 2020, 19 years after the lunar eclipse of July 2001, being the third of the four penumbral lunar eclipses of 2020 will be almost equal to the lunar eclipse of May 2013.
+</p>
+
+    </div>
+
+
+   
+            <div class="lunar">
+                       
+                <img src="ejemplo.imagenes/moonoki.png" alt="eclipsemoon">
+           
+ 
+           <div id="lunareclipseinfo">
+            <p> Local Type: Penumbral Lunar Eclipse, in Idaho </p>   
+            <p> Begins: sab, 4 de jul de 2020, 21:24</p>   
+            <p> Maximum: sab, 4 de jul de 2020, 22:29 -0,64 Magnitude</p>   
+            <p> Ends: sab, 4 de jul de 2020, 23:52</p>   
+            <p>Duration: 2 hours, 28 minutes</p> 
+        </div>
+        
+            <img src="ejemplo.imagenes/Lunar-eclipse-diagram.jpg" alt="elcipsediagram">
+            </div>
+        
+  
+</div>
+</main>
+<div class="space"></div>
+
+    <!-- FOOTER HERE -->   
+<footer>
+    <p>&copy; Check the Weather | Attributions | Araceli Ávalos  </p>
+    <p><span id="currentdate"></span> </p> 
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+
+<script src="js/scripts.js"></script>
+
+
+
+<script>
+    const options = {weekday: "long", day: "numeric", month: "long", year: "numeric"}; 
+            document.getElementById("currentdate").textContent = new Date().toLocaleDateString("en-US",options);
+
+</script>
+</body>
+</html>
