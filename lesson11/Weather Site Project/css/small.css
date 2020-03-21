@@ -47,6 +47,10 @@ header section {
     flex: 1;
 }
 
+header h3 {
+    font-size: 16px;
+}
+
 header img {
     flex: .1;
     margin: auto 0;
@@ -152,6 +156,7 @@ main section {
 
 #forecast h3 {
     justify-self: center;
+    font-size: 17px;
 }
 
 #forecast .days {
