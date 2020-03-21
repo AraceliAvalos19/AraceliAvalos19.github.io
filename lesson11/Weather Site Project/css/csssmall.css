@@ -5,13 +5,15 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
 body {
-    font-size: 15px;
+    
+
+    font-size: medium;
     background-color: #161c14;
     color: #f1f1ed;
     font-family: "Be Vietnam";
 }
 
-#adv {
+#ad {
     background-color: #4cbb17;
     color: #1c3144;
     display: block;
@@ -20,7 +22,7 @@ body {
     width: 100%;
 }
 
-#adv > p {
+   #ad > p {
        margin: 0;
    }
    
@@ -30,7 +32,6 @@ header {
     font-family: "Merriweather";
     background-color: #1c3144;
     display: flex;
-   
     padding: .5rem;
     align-items: center;
     justify-content: center;
@@ -54,17 +55,22 @@ header img {
     height: 4rem;
 }
 
+
+
 nav button {
     margin: .2rem 2%;
     background-color: transparent;
     border: none;
     font-size: 1.6rem;
     color: #1c3144;
+
 }
 
 nav {
+    padding: 0;
     background-color: #4cbb17;
     font-family: "Be Vietnam";
+   
  }
  
 nav ul{
@@ -85,110 +91,18 @@ nav ul li a {
 nav ul li.active a{background-color: rgba(0, 0, 0, 0.2)}
 nav ul li a:hover {background-color: rgba(0, 0, 0, 0.2); color: #f1f1ed;}
 nav ul.hide {display: none;}
-
-
-
-
-
    
 main {
+    
     text-align: center;
 }
 
-main section {
-    background-color: #161c14;
-    margin: 8px 5px;
-    padding: 12px;
-    text-align: start;
-}
-
-#herowsummary {
-    position: relative;
-}
-
-#herowsummary img {
-    display: block;
-    width: 100%;
-}
-
-#herowsummary div {
-    position: absolute;
-    top: 40px;
-    right: 60px;
-    display: grid;
-    grid-template-columns: 110px 50px;
-    background-color: #161c14;
-    opacity: .8;
-    padding: 8px 8px;
-}
-
-#herowsummary div h4 {
-    grid-column-start: span 2;
-    justify-self: center;
-    margin: 0;
-}
-
-#herowsummary div p {
-    margin: 0;
-}
-
-.herowsummary div p.left {
-   justify-self: start;
-    margin-right: 6px;
-    padding-left: 3px;
-}
-
-#forecast {
-    display: none;
-    justify-content: center;
-    grid-template-columns: 9rem 9rem 9rem 9rem 9rem;
-}
-
-#forecast h2 {
-    grid-column-start: span 5;
-    justify-self: center;
-}
-
-#forecast h3 {
-    justify-self: center;
-}
-
-#forecast .days {
-    display: none;
-    justify-content: center;
-    grid-template-columns: 9rem 9rem 9rem 9rem 9rem;
-}
 
 
-.events {
-    width: 600px;
-    display:block;
-  margin-left: auto;
-  margin-right: auto;
-    background-color: #bc8d00;
-    color: #1c3144;
-    border: #1c3144 solid;
-    display: block;
-    text-align: center;
-    padding: 1rem 0;
-    box-shadow: 0  0 10px #7c7b7b;
- 
-}
-.events > h2{
-    text-decoration: underline;
-    color: #1c3144;
-}
-
-.events > p {
-    font-size: 15px;
-       margin: 0;
-   }
-
-img.snowmoon {
-    width: 100%;
-    max-width: 400px;
-    float: left;
-    padding-right: 2rem;
+main {
+    max-width: 920px;
+    margin: 0 auto;
+   
 }
 
 .towns {
@@ -237,31 +151,67 @@ main section {
 
 }
 
-
-#contact {
-    background-color: #4cbb17;
-    height: 15rem;
-    padding: .5rem;
-    display: flex;
+#emergency {
+    background-color: #bc8d00;
+    color: #1c3144;
+    display: block;
+    text-align: center;
+    padding: 1rem 0;
+ 
 }
-#contact > div {
-    flex: 1;
-}
-
-#map {
-    display: none;
+#emergency > h2{
+    text-decoration: underline;
+    color: #1c3144;
 }
 
-#info p {
-   padding-left: 20px;
+#emergency > p {
+    font-size: 15px;
+       margin: 0;
+   }
+
+#eclipse {
+    background-color: #161c14;
+    color: #f1f1ed;
+    display: block;
+    text-align: center;
+    padding: .8rem 0;
+    width: 100%;
+    margin: 2px #f1f1ed;
+    line-break: auto #f1f1ed;
+ 
 }
 
-#info {
-    font-size: 0.8rem;
+#eclipse > p {
+       margin: 2px #f1f1ed
+    
+   }
+
+   .lunar {
+    margin: none;
+    padding: none;
 }
-#socialmedia {
-    padding-left: 120px;
+  
+
+ .lunar  {
+    display: grid;
+    grid-template-columns: repeat(3, 290px) ;
+  
 }
+
+#lunareclipseinfo {
+    font-family: "Be Vietnam";
+    font-size: 12px;
+    text-align: center;
+    color: #f1f1ef;
+    margin: 2px #f1f1ed;
+}
+
+.lunar img {
+ display: block;
+ margin: auto;
+    background-color: #161c14;
+}    
+
 
 footer {
     height: 5rem;
@@ -269,10 +219,7 @@ footer {
     background-color: #1c3144;
     color: #f1f1ed;
     padding: 1.5px;
-  
-}
-
-
+  }
 
 
 
@@ -281,8 +228,3 @@ footer {
     display: table;
     clear: both;
 }
-
-
-
-
-
