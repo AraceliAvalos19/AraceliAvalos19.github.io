@@ -1,5 +1,5 @@
 5607916
-const forecastApiURL = "https://api.openweathermap.org/data/2.5/forecast?id= 5607916&units=imperial&APPID=3d6a1aee115e55a320ca45412bdf9764";
+const forecastApiURL = "https://api.openweathermap.org/data/2.5/forecast?id=5607916&units=imperial&APPID=3d6a1aee115e55a320ca45412bdf9764";
 fetch(forecastApiURL)
   .then((response) => response.json())
   .then((forecastData) => {
