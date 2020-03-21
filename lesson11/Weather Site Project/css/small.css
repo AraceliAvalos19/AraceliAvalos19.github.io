@@ -140,6 +140,7 @@ main section {
 
 #forecast {
     display: none;
+    color: white;
     justify-content: center;
     grid-template-columns: 9rem 9rem 9rem 9rem 9rem;
 }
