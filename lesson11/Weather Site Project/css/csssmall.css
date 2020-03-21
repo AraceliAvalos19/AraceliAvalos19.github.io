@@ -210,7 +210,32 @@ main section {
  display: block;
  margin: auto;
     background-color: #161c14;
-}    
+} 
+
+#contact {
+    background-color: #4cbb17;
+    height: 15rem;
+    padding: .5rem;
+    display: flex;
+}
+#contact > div {
+    flex: 1;
+}
+
+#map {
+    display: none;
+}
+
+#info p {
+   padding-left: 20px;
+}
+
+#info {
+    font-size: 0.8rem;
+}
+#socialmedia {
+    padding-left: 120px;
+}
 
 
 footer {
