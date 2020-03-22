@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="Thanks">
+<meta name="author" content="Araceli Avalos">
+
+<!-- This start file was build by Paul Cheney  -->
+<title>Thanks</title>
+
+<!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH & stops the font from enlarging when a phone is turned sideways-->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+
+
+
+<!-- STYLE SHEETS -->
+<link href="css/normalize.css" rel="stylesheet">
+<!-- phone-default -->
+<link href="css/thanksmall.css" rel="stylesheet">
+<!-- enhance-tablet -->
+<link href="css/thanksmedium.css" rel="stylesheet">
+<!-- enhance-desktop -->
+<link href="css/thankslarge.css" rel="stylesheet">
+
+
+     
+</head>
+<body>
+   
+ <!-- HEADER HERE -->
+ <header>
+     
+    <div>
+        <img id="logo" src="images/ejemplotransparetlogo.png" alt="Logo">
+   <section>
+<h1 >Check the Weather</h1>
+
+    <h3 style="font-family: Be Vietnam;">No surprises</h3>
+  
+</section>
+</div>
+</header>
+
+<!-- NAVIGATION HERE -->
+<nav class="clearfix">
+    
+    <button onclick="toggleMenu()">&#9776;</button>
+    <ul id="primaryNav" class="green">
+    <li><a href="index.html">Home</a></li>
+    <li class=><a href="preston.html">Preston</a></li>
+    <li><a href="sodasprings.html">Soda Springs</a></li>
+    <li><a href="fishhaven.html">Fish Haven</a></li>  
+    <li><a href="active">Storm Center</a></li>
+    <li><a href="gallery.html">Gallery</a></li>
+        
+    </ul>
+</nav>
+
+
+
+    
+<!-- CONTENT HERE -->
+<main>
+    <div class="spaces"></div>
+        <h2>Thanks for your information. It will be very useful in the Storm Report Center.</h2>
+        <div class="spaces"></div>
+          
+    </main>
+    
+    <!-- FOOTER HERE -->   
+    <footer>
+        <p>&copy; Check the Weather | Attributions | Araceli Ávalos  </p>
+        <p><span id="currentdate"></span> </p> 
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+
+    <script src="js/scripts.js"></script>
+    
+    <script>
+        const options = {weekday: "long", day: "numeric", month: "long", year: "numeric"}; 
+                document.getElementById("currentdate").textContent = new Date().toLocaleDateString("en-US",options);
+    
+    </script>
+    </body>
+    </html>
