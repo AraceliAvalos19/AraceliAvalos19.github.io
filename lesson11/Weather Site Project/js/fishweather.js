@@ -6,10 +6,11 @@ fetch(apiURL)
     console.log(jsObject);
 
     
-
+    document.getElementById('currently').textContent = jsObject.weather[0].main;
     document.getElementById('current-temp').textContent = Math.round(jsObject.main.temp) + "°F";
     document.getElementById('high').textContent =Math.round(jsObject.main.temp_max) + "°F";
     document.getElementById('humidity').textContent = Math.round(jsObject.main.humidity) + "%";
     document.getElementById('windspeed').textContent = Math.round(jsObject.wind.speed) + " mph";
     currentTemp.textContent =jsObject.main.temp;
 });
+
