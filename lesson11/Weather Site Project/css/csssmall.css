@@ -169,7 +169,10 @@ main section {
        margin: 0;
    }
 
-
+.final {
+    display: grid;
+    grid-template-columns: 1fr;
+}
 
 #eclipse {
     background-color: #161c14;
