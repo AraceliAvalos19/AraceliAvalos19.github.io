@@ -169,33 +169,31 @@ main section {
        margin: 0;
    }
 
+
+
 #eclipse {
     background-color: #161c14;
     color: #f1f1ed;
     display: block;
     text-align: center;
     padding: .8rem 0;
-    width: 100%;
+    width: auto;
     margin: 2px #f1f1ed;
     line-break: auto #f1f1ed;
- 
 }
 
 #eclipse > p {
        margin: 2px #f1f1ed
-    
-   }
+}
 
    .lunar {
     margin: none;
     padding: none;
 }
   
-
- .lunar  {
+.lunar  {
     display: grid;
     grid-template-columns: repeat(3, 290px) ;
-  
 }
 
 #lunareclipseinfo {
@@ -207,6 +205,7 @@ main section {
 }
 
 .lunar img {
+    width: auto;
  display: block;
  margin: auto;
     background-color: #161c14;

@@ -25,6 +25,10 @@
        display: block;
    }
 
+#finalarticle {
+    display: block;
+} 
+
    
 #contact {
     flex-direction: row;
