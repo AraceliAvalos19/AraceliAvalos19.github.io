@@ -131,8 +131,12 @@ footer {
     
       img[data-src] {
         filter: blur(0.2em);
-        
-      }
+    }
+
+    #Credits {
+        font-size: 11px;
+     text-align: center;
+    }
 
       #contact {
         background-color: #4cbb17;
