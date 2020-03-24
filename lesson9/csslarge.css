@@ -27,7 +27,9 @@
     }
 
    
-   
+   .lunar {
+    grid-template-rows: 1fr;
+}
     
     
    

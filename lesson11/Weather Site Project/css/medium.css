@@ -19,7 +19,9 @@
         padding: 1rem;
     }
   
-    
+    .hide {
+        display: block;
+    }  
     
 #herowsummary div {
     grid-template-columns: 115px 60px;
