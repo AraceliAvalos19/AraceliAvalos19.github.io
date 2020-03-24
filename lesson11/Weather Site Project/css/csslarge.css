@@ -16,6 +16,11 @@
         font-family: "Be Vietnam";
     }
 
+    .lunar  {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
     #contact, footer {
         width: 100%;
         margin: auto;
