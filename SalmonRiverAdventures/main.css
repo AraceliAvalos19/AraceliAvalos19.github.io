@@ -1,0 +1,79 @@
+body {
+    font-family: "Montserrat";
+max-width: 1300px;
+
+}
+
+p {
+    max-width: 1250px;
+}
+
+
+header{
+    height: 100px;
+background-color: #255e72;
+color: #f0e6da;
+font-weight: bold;
+padding-top: 10px;
+text-align: center;
+
+}
+
+nav{
+    background-color: #014949;
+    height: 30px;
+}
+
+    
+#font {
+    font-family: "Montserrat";
+    font-size: 10px;
+    
+}   
+
+
+
+
+
+       
+       
+       
+       
+
+   
+ 
+    h1{
+font-size: 2.5rem;
+}
+h2{
+font-size: 1.5rem;
+color: #1c3144;
+}
+p{
+    color: #1c3144;
+}
+Foto{
+    
+padding: 10px 10px;
+
+height: 180px;
+text-align: right;
+
+}
+
+main{
+padding-left: 30px;
+color: #1c3144;
+
+}
+img{
+    box-shadow: 5px 5px 5px;
+}
+
+
+footer, nav{
+text-align: center;
+background-color: #014949;
+color: #f0e6da;
+padding: 10px;
+}
