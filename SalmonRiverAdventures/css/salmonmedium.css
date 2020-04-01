@@ -7,8 +7,9 @@
         display: none;
     } 
     nav ul {
+        padding-left: 150px;
         margin: 0 auto;
-        max-width: 33rem;
+        max-width: 40rem;
     }
     nav ul li {
         float: left;
@@ -29,16 +30,7 @@
     grid-template-columns: 115px 60px;
     font-size: 15px;
 }
-
-#forecast {
-    display: grid;
-}
-
-img.snowmoon {
-    width: 30%
-}
-
-
+ 
 #contact {
     flex-direction: row;
     height: 200px;
