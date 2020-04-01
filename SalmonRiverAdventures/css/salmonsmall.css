@@ -9,6 +9,8 @@ body {
     font-family: "Montserrat";
 }
 
+
+
 #logo {
     width: 150px;
    position: relative;
@@ -41,7 +43,7 @@ nav ul li a {
     text-align: center;
     padding: .8rem 2%;
     text-decoration: none;
-    color: #1c3144;
+    color: #96ba92;
     border-top: 1px solid rgba(0, 0, 0, 0.2);
 }
 
