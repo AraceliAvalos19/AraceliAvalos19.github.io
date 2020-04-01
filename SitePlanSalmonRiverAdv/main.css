@@ -18,7 +18,13 @@ padding-top: 10px;
 text-align: center;
 
 }
-
+#logo {
+    width: 150px;
+ position: relative;
+  left: 15px;
+  top: 5px;
+  box-shadow: none;
+}
 nav{
     background-color: #014949;
     height: 30px;
@@ -67,7 +73,7 @@ color: #1c3144;
 
 }
 img{
-    box-shadow: 5px 5px 5px;
+    
 }
 
 
