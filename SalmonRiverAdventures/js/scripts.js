@@ -1,6 +1,6 @@
 WebFont.load({
     google: {
-    families: ["Montserrat","Oswald", "Roboto Slab"
+    families: ["Oswald", "Roboto Slab", "Montserrat"]
     }
     });
 
@@ -15,3 +15,15 @@ function adjustSeverity(severity) {
     document.getElementById("severity").innerHTML = severity;
   }
   
+
+
+
+
+
+
+
+
+
+
+
+

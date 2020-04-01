@@ -6,10 +6,25 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 
 body {
     font-size: 15px;
-    
-    
-    font-family: "Montserrat";
+    background-color: #161c14;
+    color: #f1f1ed;
+    font-family: "Be Vietnam";
 }
+
+#adv {
+    background-color: #4cbb17;
+    color: #1c3144;
+    display: block;
+    text-align: center;
+    padding: .8rem 0;
+    width: 100%;
+}
+
+#adv > p {
+       margin: 0;
+   }
+   
+    
 
 header {
     font-family: "Merriweather";
@@ -91,17 +106,17 @@ main section {
     text-align: start;
 }
 
-.weathertoday {
+#herowsummary {
     position: relative;
 }
 
-.weathertoday img {
+#herowsummary img {
     display: block;
     width: 100%;
    
 }
 
-.weathertoday div {
+#herowsummary div {
     position: absolute;
     top: 40px;
     right: 60px;
@@ -112,21 +127,113 @@ main section {
     padding: 8px 8px;
 }
 
-.weathertoday div h4 {
+#herowsummary div h4 {
     grid-column-start: span 2;
     justify-self: center;
     margin: 0;
 }
 
-.weathertoday div p {
+#herowsummary div p {
     margin: 0;
 }
 
-.weathertoday p.left {
+.herowsummary div p.left {
    justify-self: start;
     margin-right: 6px;
     padding-left: 3px;
 }
+
+#forecast {
+    display: none;
+    color: white;
+    justify-content: center;
+    grid-template-columns: 9rem 9rem 9rem 9rem 9rem;
+}
+
+#forecast h2 {
+    grid-column-start: span 5;
+    justify-self: center;
+}
+
+#forecast h3 {
+    justify-self: center;
+    font-size: 17px;
+}
+
+#forecast .days {
+    display: none;
+    justify-content: center;
+    grid-template-columns: 9rem 9rem 9rem 9rem 9rem;
+}
+
+
+.events {
+  
+    width: auto;
+    display:block;
+  margin-left: auto;
+  margin-right: auto;
+    background-color: #bc8d00;
+    color: #1c3144;
+    border: #1c3144 solid;
+    display: block;
+    text-align: center;
+    padding: 1rem 0;
+    box-shadow: 0  0 10px #7c7b7b;
+ 
+}
+.events > h2{
+    text-decoration: underline;
+    color: #1c3144;
+}
+
+.events > p {
+    font-size: 15px;
+       margin: 0;
+   }
+
+
+img.snowmoon {
+    width: 100%;
+    max-width: 400px;
+    float: left;
+    padding-right: 2rem;
+}
+
+.towns {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax (300px, 1fr));
+   
+}
+
+.towns section {
+    margin: 8px;
+    padding: 8px;
+    background-color: #1c3144;
+    color: white;
+    box-shadow: 0 0 8px #bdbdb9;
+}
+
+h2 {
+    font-family: "Roboto";
+    font-size: 22px;
+    text-align: center;
+    color: white;
+}
+
+h3 {
+    font-size: 12px;
+    padding: 8px;
+}
+
+
+
+.towns img {
+    box-shadow: 0 0 4px #bdbdb9;
+  
+    
+}
+
 
 main section {
     margin-left: 25px;
