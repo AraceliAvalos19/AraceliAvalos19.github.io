@@ -1,0 +1,77 @@
+/* 35em is also 560px when basefont is 16px */
+@media only screen and (min-width: 35rem) {
+
+   
+
+    nav button {
+        display: none;
+    } 
+    nav ul {
+        margin: 0 auto;
+        max-width: 43rem;
+    }
+    nav ul li {
+        float: left;
+    }
+    nav ul li a {
+        border:none;
+        border-right: 1px solid rgba(0, 0, 0, 0.3);
+        padding: 1rem;
+    }
+  
+    nav ul.hide {
+        display: block;
+    }  
+    
+#herowsummary div {
+    grid-template-columns: 115px 60px;
+    font-size: 15px;
+}
+
+#forecast {
+    display: grid;
+}
+
+img.snowmoon {
+    width: 30%
+}
+
+
+#contact {
+    flex-direction: row;
+    height: 200px;
+}
+
+#contact > div {
+    margin-right: 8px;
+}
+
+#map{
+    display: block;
+   
+}
+#map > iframe {
+    width: 288px;
+     height: 180px;
+    
+}
+
+
+#info p {
+    padding-left: 120px;
+ }
+ 
+  #socialmedia {
+     padding-left: 220px;
+ }
+ 
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+ /*end medium */
+}
