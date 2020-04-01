@@ -9,11 +9,15 @@ body {
     font-family: "Montserrat";
 }
 
+banner {
+    width: 100%;
+}
+
 
 
 #logo {
     width: 150px;
-   position: relative;
+   position: absolute;
     left: 10px;
     top: 10px;
 }
