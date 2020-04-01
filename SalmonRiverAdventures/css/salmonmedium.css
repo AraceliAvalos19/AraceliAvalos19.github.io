@@ -8,7 +8,7 @@
     } 
     nav ul {
         margin: 0 auto;
-        max-width: 43rem;
+        max-width: 33rem;
     }
     nav ul li {
         float: left;
@@ -22,8 +22,10 @@
     nav ul.hide {
         display: block;
     }  
-    
-#herowsummary div {
+
+                                           
+
+    #herowsummary div {
     grid-template-columns: 115px 60px;
     font-size: 15px;
 }

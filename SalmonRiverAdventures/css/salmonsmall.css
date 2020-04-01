@@ -6,43 +6,15 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 
 body {
     font-size: 15px;
-    
-    
     font-family: "Montserrat";
 }
 
-header {
-    font-family: "Merriweather";
-    background-color: #1c3144;
-    display: flex;
-   
-    padding: .5rem;
-    align-items: center;
-    justify-content: center;
-    color: #f1f1ed;
+#logo {
+    width: 150px;
+   position: relative;
+    left: 10px;
+    top: 10px;
 }
-
-header div {
-    display: flex;
-}
-
-header section {
-    text-align: center;
-    margin: 1rem;
-    flex: 1;
-}
-
-header h3 {
-    font-size: 16px;
-}
-
-header img {
-    flex: .1;
-    margin: auto 0;
-    display: block;
-    height: 4rem;
-}
-
 nav button {
     margin: .2rem 2%;
     background-color: transparent;
@@ -52,8 +24,8 @@ nav button {
 }
 
 nav {
-    background-color: #4cbb17;
-    font-family: "Be Vietnam";
+    background-color: #255e72;
+    font-family: "Montserrat";
  }
  
 nav ul{
@@ -64,7 +36,9 @@ nav ul{
 }
 
 nav ul li a {
-    display: block;
+  
+    display: inline-block;
+    text-align: center;
     padding: .8rem 2%;
     text-decoration: none;
     color: #1c3144;
@@ -91,42 +65,62 @@ main section {
     text-align: start;
 }
 
-.weathertoday {
+#herowsummary {
     position: relative;
 }
 
-.weathertoday img {
-    display: block;
-    width: 100%;
-   
-}
-
-.weathertoday div {
+#herowsummary div {
     position: absolute;
     top: 40px;
     right: 60px;
     display: grid;
     grid-template-columns: 110px 50px;
-    background-color: #161c14;
+    background-color: #585c56;
+    color: #f0e6da;
     opacity: .8;
     padding: 8px 8px;
 }
 
-.weathertoday div h4 {
+#herowsummary div h4 {
     grid-column-start: span 2;
     justify-self: center;
     margin: 0;
 }
 
-.weathertoday div p {
+#herowsummary div p {
     margin: 0;
 }
 
-.weathertoday p.left {
+.herowsummary div p.left {
    justify-self: start;
     margin-right: 6px;
     padding-left: 3px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 main section {
     margin-left: 25px;

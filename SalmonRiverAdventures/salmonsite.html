@@ -9,7 +9,7 @@
 <title>Salmon River Adventures Website</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-<link  href="../css/favicon.ico" rel="shortcut icon">
+<link  href="css/favicon.ico" rel="shortcut icon">
 
 <link href="css/salmonnormalize.css" rel="stylesheet">
 <link href="css/salmonsmall.css " rel="stylesheet">
@@ -20,18 +20,29 @@
 
 
 <body>
+    
+    <header>
+
+       
+
     <nav class="clearfix">
         <button onclick="toggleMenu()">&#9776;</button>
         <ul id="primaryNav" class="hide">
+           
             <li class="active"><a href="#">Home</a></li>  
             <li><a href="">River Guide</a></li>
             <li><a href="">Reservation</a></li>
             <li><a href="">Contact</a></li>
           
         </ul>
+       
     </nav>
-    
- 
+    <img src="../SalmonRiverAdventures/Imágenes/bwlogo.png " alt="logo">
+<img src="Imágenes/jeffrey-eisen-fIdbmy-0Am4-unsplash.png" alt="banner">
+
+
+
+    <section id="herowsummary">
     <div class="weathertoday">
         <h4>Weather Summary</h4>
         <br>
@@ -42,9 +53,9 @@
         <p class="left">Humidity:</p><p class="right" id="humidity"></p>
         <p class="left">Wind Speed:</p><p class="right" id="windspeed"></p>
         <p class="left">Wind Chill:</p><p class="right" id="windchill"></p>
-       
-        
-     </div>
+    </div>
+    </section>
+</header>  
             
     
 <!-- HEADER HERE -->
@@ -56,7 +67,7 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
 
-<script src="../js/scripts.js"></script>
+<script src="js/scripts.js"></script>
 
 <script src="js/rigginsweather.js"></script>
 
