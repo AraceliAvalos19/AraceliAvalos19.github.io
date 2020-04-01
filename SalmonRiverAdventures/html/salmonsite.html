@@ -12,7 +12,7 @@
 <link  href="../css/favicon.ico" rel="shortcut icon">
 
 <link href="css/salmonnormalize.css" rel="stylesheet">
-<link href="css/salmonsmall.css" rel="stylesheet">
+<link href="css/s" rel="stylesheet">
 <link href="css/salmonmedium.css" rel="stylesheet">
 <link href="css/salmonlarge.css" rel="stylesheet">
 
@@ -20,8 +20,33 @@
 
 
 <body>
-    <p>montserrat</p>
+    <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="primaryNav" class="hide">
+            <li class="active"><a href="#">Home</a></li>  
+            <li><a href="">Home</a></li>
+            <li><a href="">River Guide</a></li>
+            <li><a href="">Reservation</a></li>
+            <li><a href="">Contact</a></li>
+            <li><a href="">Storm Center</a></li>
+          
+        </ul>
+    </nav>
     
+ 
+    <div class="weathertoday">
+        <h4>Weather Summary</h4>
+        <br>
+        <hr>
+        <p class="left">Currently:</p><p class="right" id="currently"></p>
+        <p class="left">Current temp:</p><p class="right" id="current-temp"></p>
+        <p class="left">High:</p><p class="right" id="high"></p>
+        <p class="left">Humidity:</p><p class="right" id="humidity"></p>
+        <p class="left">Wind Speed:</p><p class="right" id="windspeed"></p>
+        <p class="left">Wind Chill:</p><p class="right" id="windchill"></p>
+       
+        
+     </div>
             
     
 <!-- HEADER HERE -->
@@ -33,7 +58,7 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
 
-<script src="js/scripts.js "></script>
+<script src="../js/scripts.js"></script>
 
 
 
