@@ -17,7 +17,7 @@ body {
 #logo {
    display: block;
    position: absolute;
-  margin: 35px;
+  margin-left: 5px;
    margin-top: -15px;
    
 }
@@ -60,11 +60,12 @@ nav ul li.active a{background-color: rgba(0, 0, 0, 0.2)}
 nav ul li a:hover {background-color: rgba(0, 0, 0, 0.2); color: #f1f1ed;}
 nav ul.hide {display: none;}
 
+
+
 #herowsummary div {
     position: absolute;
-    align-self: auto;
     top: 40px;
-    right: 60px;
+    right: 5px;
     display: grid;
     grid-template-columns: 110px 50px;
     background-color: #96ba92;
@@ -72,18 +73,18 @@ nav ul.hide {display: none;}
     color: #014949;
     font-family: "Montserrat";
     font-weight: bolder;
-  
-    padding: 12px 8px;
+    padding: 12px 0;
 }
+
+
+
 
 #herowsummary img{
      display: block;
-  
+     margin: auto;
      width: 100%;
-       
+}  
    
-}
-
 
 
 #herowsummary div h4 {
@@ -102,9 +103,27 @@ nav ul.hide {display: none;}
     padding-left: 3px;
 }
 
+#activities h1{
+     font-family: "Oswald";
+     font-size: 50px;
+     color: #02725e;
+     text-align: center;
+}
+ #activities p {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 900;
+    color: #014949;
+    padding: 50px;
+ }
+ .grid1 {
+     display: grid;
+     grid-template-columns: 370px 370px;
+     grid-template-rows: 370px 370px;
+     color: #96ba92;
+ }
 
-
-
+ 
 
 
 .space {

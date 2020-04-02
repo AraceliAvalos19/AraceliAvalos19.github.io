@@ -11,7 +11,11 @@
                  text-align: center;    
     }
 
-  
+    #herowsummary img{
+        display: block;
+        margin: auto;        
+        width: 100%;
+   }
   
   
   

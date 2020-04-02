@@ -24,13 +24,22 @@
         display: block;
     }  
 
-                                           
+    #herowsummary img{
+        display: block;
+        margin: auto;        
+        width: 100%;
+   }                                        
 
     #herowsummary div {
     grid-template-columns: 115px 60px;
     font-size: 15px;
 }
+
+.grid1 {
+    display: block;
+   margin: auto;
  
+ } 
 #contact {
     flex-direction: row;
     height: 200px;
