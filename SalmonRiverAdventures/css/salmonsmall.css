@@ -102,24 +102,26 @@ nav ul.hide {display: none;}
 #activities {
     text-align: center;
 
+
 }
 
 
 
 #photos {
     display: grid;
+
 }
 
  article {
     display: inline-block;
-    max-width: 100%;
+
     border: 2px #014949;
     padding: 1rem;
     margin: 2px;
     margin-top: 2px;
-    background-color: #f0e6da;
+    background-color: #96ba92;
     text-align: center;
-    
+     
 }
 
 .sports {

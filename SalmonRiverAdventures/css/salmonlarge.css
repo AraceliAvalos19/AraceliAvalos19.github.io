@@ -19,14 +19,43 @@
 
    article {
       display: inline-block;
+      width: 500px;
+      height: 500px;
+    
+
    }
 
    #photos {
     display: grid;
-    grid-template-columns: 550px 550px;
-    grid-template-rows: 480px 480px;
     margin: auto;
-    padding-left:  150px;
+    grid-template-columns: auto auto;
+   grid-row-gap: 20px;
+   grid-column-gap: 20px;
+   padding-left: 120px;
+
+}
+
+img.sports {
+    max-width: 460px;
+    max-height: 318px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sports {
+    max-width: 480px;
+    max-height: 319px;
+    margin: auto;
 }
 
    .space {
