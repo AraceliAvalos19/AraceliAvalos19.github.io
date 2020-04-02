@@ -35,12 +35,8 @@
     font-size: 15px;
 }
 
-.grid1 {
-    display: block;
-   margin: auto;
- 
- } 
-#contact {
+
+ #contact {
     flex-direction: row;
     height: 200px;
 }

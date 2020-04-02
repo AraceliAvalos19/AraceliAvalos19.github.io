@@ -7,6 +7,7 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 body {
     font-size: 15px;
     font-family: "Montserrat";
+
 }
 
 
@@ -76,17 +77,12 @@ nav ul.hide {display: none;}
     padding: 12px 0;
 }
 
-
-
-
 #herowsummary img{
      display: block;
      margin: auto;
      width: 100%;
 }  
    
-
-
 #herowsummary div h4 {
     grid-column-start: span 2;
     justify-self: center;
@@ -103,27 +99,34 @@ nav ul.hide {display: none;}
     padding-left: 3px;
 }
 
-#activities h1{
-     font-family: "Oswald";
-     font-size: 50px;
-     color: #02725e;
-     text-align: center;
-}
- #activities p {
-    font-family: "Montserrat";
-    font-style: normal;
-    font-weight: 900;
-    color: #014949;
-    padding: 50px;
- }
- .grid1 {
-     display: grid;
-     grid-template-columns: 370px 370px;
-     grid-template-rows: 370px 370px;
-     color: #96ba92;
- }
+#activities {
+    text-align: center;
 
- 
+}
+
+
+
+#photos {
+    display: grid;
+}
+
+ article {
+    display: inline-block;
+    max-width: 100%;
+    border: 2px #014949;
+    padding: 1rem;
+    margin: 2px;
+    margin-top: 2px;
+    background-color: #f0e6da;
+    text-align: center;
+    
+}
+
+.sports {
+    display: block;
+    margin: auto;
+
+}
 
 
 .space {
