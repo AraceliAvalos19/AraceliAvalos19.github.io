@@ -42,16 +42,6 @@ img.sports {
 
 
 
-
-
-
-
-
-
-
-
-
-
 .sports {
     max-width: 480px;
     max-height: 319px;
@@ -65,7 +55,7 @@ img.sports {
     }
  
     #contact, footer{
-        width: 1000px;
+        width: 100%;
         margin: auto;
 
 } 
