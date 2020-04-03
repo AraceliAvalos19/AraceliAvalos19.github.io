@@ -119,14 +119,14 @@ nav ul.hide {display: none;}
  article {
     display: inline-block;
     font-family: "Oswald";
-    color: #96ba92;
+    color:  #014949;
     
     padding: 1rem;
     margin: 2px;
     margin-top: 2px;
-    background-color:  #014949;
+    background-color:  #96ba92;
     text-align: center;
-  
+    #014949
 }
 
 .sports {
