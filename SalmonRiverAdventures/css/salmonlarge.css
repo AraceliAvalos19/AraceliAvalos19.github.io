@@ -48,6 +48,14 @@ img.sports {
     margin: auto;
 }
 
+#plans {
+    display: grid;
+    margin: auto;
+    grid-template-columns: auto auto;
+   grid-row-gap: 10px;
+   grid-column-gap: 5px;
+   padding-left: 100px;
+
    .space {
         background-color: #161c14;
         width: 100%;
