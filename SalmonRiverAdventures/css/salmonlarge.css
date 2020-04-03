@@ -21,9 +21,7 @@
       display: inline-block;
       width: 540px;
       height: 540px;
-    
-
-   }
+}
 
    #photos {
     display: grid;
@@ -40,8 +38,6 @@ img.sports {
     max-height: 318px;
 }
 
-
-
 .sports {
     max-width: 480px;
     max-height: 319px;
@@ -56,6 +52,11 @@ img.sports {
    grid-column-gap: 5px;
    padding-left: 100px;
 }
+
+#format {
+    padding-left: 20px;
+}
+
 
 .space {
         background-color: #161c14;
