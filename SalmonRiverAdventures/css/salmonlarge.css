@@ -55,21 +55,15 @@ img.sports {
    grid-row-gap: 10px;
    grid-column-gap: 5px;
    padding-left: 100px;
-
-#contactus {
-    display: grid;
-    margin: auto;
-    grid-template-columns: auto auto;
-    grid-column-gap: 10px;
 }
 
-   .space {
+.space {
         background-color: #161c14;
         width: 100%;
         height: 3.5rem;
-    }
+}
  
-    #contact, footer{
+footer{
         width: 100%;
         margin: auto;
 

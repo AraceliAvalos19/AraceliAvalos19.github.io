@@ -142,22 +142,24 @@ img.sports {
     box-shadow: 5px 5px 5px rgb(0, 0, 0);
 }
 
+h2 {
+    font-family: "Montserrat";
+    color:#014949;
+    text-align: left;
+    margin-left: 80px;
+}
+
 /*CONTACT*/
 #format {
-    max-width: 50%;
+    max-width: 75%;
     text-align: left;
     font-family: "Montserrat";
 }
 fieldset {
-    margin: auto;
-    margin: 30px 30px;
-    border: white;
+    margin-left: 80px;
     background-color: #a8c7a4;
+    box-shadow: 5px 5px #3b413a;
 }
-
-form label {
-  margin: 0 15px 0 0;
-  }
 
 .square {
   display: block;
@@ -172,7 +174,7 @@ label.square input, select {
   text-align: left;
   border: #f1f1ed;
   margin: 0 0 0 3px;
-  background-color: #f1f1ed;
+  background-color: #02725e
   font-size: 14px;
   padding: 10px;
   width: 95%;
