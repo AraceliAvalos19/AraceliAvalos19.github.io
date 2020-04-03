@@ -61,7 +61,8 @@
  }
  
   #socialmedia {
-     padding-left: 220px;
+   display: block;
+   margin: auto;
  }
  
 .clearfix:after {
