@@ -151,7 +151,7 @@ img.sports {
 fieldset {
     margin: auto;
     margin: 30px 30px;
-    border: #f1f1ed;
+    border: white;
     background-color: #a8c7a4;
 }
 
@@ -178,26 +178,10 @@ label.square input, select {
   width: 95%;
 }
 
-
-
-
-
-
-.flexly {
-  display: flex;
-  align-items: left;
-  margin: 0;
-}
-
-label.flexly {
-  display: block;
-}
-
 textarea {
   display: block;
   text-align: left;
-  border: white;
-  border-radius: 5px;
+  border: #014949;
   margin: 0 0 0 3px;
   padding: 10px;
   background-color: white;
@@ -207,7 +191,8 @@ textarea {
 
 #reportBtn {
   margin-left: 10px;
-  background-color: #255e72;
+  background-color: #014949;
+  margin: 1px black;
   padding: 10px;
   font-size: 16px;
 }

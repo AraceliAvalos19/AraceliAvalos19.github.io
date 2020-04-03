@@ -56,6 +56,13 @@ img.sports {
    grid-column-gap: 5px;
    padding-left: 100px;
 
+#contactus {
+    display: grid;
+    margin: auto;
+    grid-template-columns: auto auto;
+    grid-column-gap: 10px;
+}
+
    .space {
         background-color: #161c14;
         width: 100%;
