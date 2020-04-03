@@ -4,11 +4,6 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 /*----------- apply a natural box layout model to all elements --------------*/
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
-body {
-    font-size: 15px;
-    font-family: "Montserrat";
-
-}
 
 #logo {
    display: block;
@@ -60,7 +55,7 @@ nav ul li.active a{background-color: rgba(0, 0, 0, 0.2)}
 nav ul li a:hover {background-color: rgba(0, 0, 0, 0.2); color: #f1f1ed;}
 nav ul.hide {display: none;}
 
-
+/*Riggins weather*/
 #herowsummary div {
     position: absolute;
     top: 40px;
@@ -99,33 +94,32 @@ nav ul.hide {display: none;}
     padding-left: 3px;
 }
 
-
-#activities {
+/*PRESENTATION*/
+#presentation {
     text-align: center;
     margin-left: 72px;
     margin-right: 66px;
     color: #014949;
-
-    
 }
 
-#activities h1 {
+#presentation h1 {
     font-family: "Roboto Slab";
     font-size: 60px;
     text-shadow: black 1px 1px;
 }
 
-#activities p {
+#presentation p {
     font-family: "Montserrat";
     font-weight: 900;
    font-size: 20px;
 }
 
+/*activities squares*/
 #photos {
     display: grid;
 }
 
- article {
+article {
     display: inline-block;
     font-family: "Montserrat";
     font-size: 16px;
@@ -135,8 +129,6 @@ nav ul.hide {display: none;}
     margin-top: 2px;
     background-color:  #96ba92;
     text-align: center;
-
-    #014949
 }
 
 .sports {
@@ -149,13 +141,76 @@ nav ul.hide {display: none;}
 img.sports {
     box-shadow: 5px 5px 5px rgb(0, 0, 0);
 }
-.space {
-    background-color: #161c14;
-    width: 100%;
-    height: 3rem;
+
+/*CONTACT*/
+#format {
+    max-width: 50%;
+    text-align: left;
+    font-family: "Montserrat";
+}
+fieldset {
+    margin: auto;
+    margin: 30px 30px;
+    border: #f1f1ed;
+    background-color: #a8c7a4;
+}
+
+form label {
+  margin: 0 15px 0 0;
+  }
+
+.square {
+  display: block;
+  padding: 10px;
+  margin-top: 15px;
+  font-size: 12px;
+}    
+
+label.square input, select {
+  
+  display: block;
+  text-align: left;
+  border: #f1f1ed;
+  margin: 0 0 0 3px;
+  background-color: #f1f1ed;
+  font-size: 14px;
+  padding: 10px;
+  width: 95%;
 }
 
 
+
+
+
+
+.flexly {
+  display: flex;
+  align-items: left;
+  margin: 0;
+}
+
+label.flexly {
+  display: block;
+}
+
+textarea {
+  display: block;
+  text-align: left;
+  border: white;
+  border-radius: 5px;
+  margin: 0 0 0 3px;
+  padding: 10px;
+  background-color: white;
+  font-size: 18px;
+  width: 100%;
+}
+
+#reportBtn {
+  margin-left: 10px;
+  background-color: #255e72;
+  padding: 10px;
+  font-size: 16px;
+}
 
 #contact {
     background-color: #4cbb17;
@@ -189,7 +244,12 @@ footer {
     background-color:#a8c7a4;
     color: #014949;
     padding: 1.5px;
-  
+}
+
+.space {
+    background-color: #161c14;
+    width: 100%;
+    height: 3rem;
 }
 
 
