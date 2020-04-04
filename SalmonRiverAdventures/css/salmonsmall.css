@@ -6,15 +6,18 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 
 
 
-#logo {
-    display: none; 
+.logo {
+    display: block;
+    position: absolute;
+    margin-left: 10px; 
 }
 
-#logos {
+.logos {
     display: block;
     position: absolute;
     margin-left: 10px;
-    margin-top: 2px;
+  
+  
  }
 nav button {
     margin: .2rem 2%;
