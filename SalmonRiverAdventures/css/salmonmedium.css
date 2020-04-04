@@ -29,30 +29,10 @@
     nav ul.hide {
         display: block;
     }  
-
-
-    #socialmedia {
-        display: block;
-        padding-left: 610px;
- }
-
- #contact {
-    flex-direction: row;
-    height: 200px;
-}
-
+ 
 #contact > div {
     margin-right: 8px;
 }
-
-
-
-
-
-
-
-
-
 
 
 #info p {
