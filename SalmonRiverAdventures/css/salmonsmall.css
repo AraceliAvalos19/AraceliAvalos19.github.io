@@ -5,11 +5,9 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
 
+
 #logo {
-   display: block;
-   position: absolute;
-   margin-left: 10px;
-   margin-top: 10px;
+    display: none; 
 }
 
 #logos {
@@ -23,7 +21,7 @@ nav button {
     background-color: transparent;
     border: none;
     font-size: 1.6rem;
-    color: #1c3144;
+    color: #a8c7a4;
 }
 
 nav {
@@ -122,11 +120,11 @@ article {
     display: inline-block;
     font-family: "Montserrat";
     font-size: 16px;
-    color:  #014949;
+    color:  #a8c7a4;
     padding: .5rem;
     margin: 2px;
     margin-top: 2px;
-    background-color: #014949;
+    background-color: #02725e;
     text-align: center;
 }
 
@@ -215,6 +213,8 @@ textarea {
 #info {
     font-size: 0.8rem;
 }
+
+
 
 
 

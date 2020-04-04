@@ -2,6 +2,12 @@
 @media only screen and (min-width: 35rem) {
 
    
+    #logo {
+        display: block;
+        position: absolute;
+        margin-left: 10px;
+        margin-top: 10px;
+     }
 
     nav button {
         display: none;
@@ -25,6 +31,10 @@
     }  
 
 
+    #socialmedia {
+        display: block;
+        padding-left: 610px;
+ }
 
  #contact {
     flex-direction: row;
@@ -35,25 +45,20 @@
     margin-right: 8px;
 }
 
-#map{
-    display: block;
-   
-}
-#map > iframe {
-    width: 288px;
-     height: 180px;
-    
-}
+
+
+
+
+
+
+
+
 
 
 #info p {
     padding-left: 120px;
  }
  
-  #socialmedia {
-   display: block;
-   margin: auto;
- }
  
 .clearfix:after {
     content: "";
