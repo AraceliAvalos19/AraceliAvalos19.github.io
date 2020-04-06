@@ -62,15 +62,17 @@ nav ul.hide {display: none;}
     top: 40px;
     right: 5px;
     display: grid;
-    grid-template-columns: 110px 50px;
+    grid-template-columns: 120px 50px;
     background-color: #a8c7a4;
     opacity: .7;
     color: #012929;
     font-family: "Montserrat";
     font-weight: bolder;
-    padding: 12px 0;
+    padding: 8px;
     margin-top: 20px;
     margin-right: 10px;
+  
+  
 }
 
 #herowsummary img{
