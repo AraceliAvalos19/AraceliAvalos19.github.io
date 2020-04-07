@@ -1,4 +1,4 @@
-const requestURL = 'https://araceliavalos19.github.io/SalmonRiverAdventures/js/salmon.json';
+const request = 'https://AraceliAvalos19.github.io/SalmonRiverAdventures/salmon.json';
 
 fetch(requestURL)
     .then(function (response) {
