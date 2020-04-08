@@ -231,9 +231,35 @@ textarea {
 
 .cards section {
     text-align: center;
-    padding: 1rem 0 0 0;
-    margin: .5rem 0;
+    background-color: #a0b49d;
+    color: #014949;
+    font-family: "Montserrat";
 }
+
+.cards section p {
+    margin:  15px;
+}
+
+.cards section h2 {
+    text-align: center;
+}
+
+.cards img {
+    margin-bottom: 15px;
+    box-shadow: 5px 5px 5px rgb(0, 0, 0);
+}
+
+.cards {
+    display: grid;
+    margin: auto;
+    grid-template-columns: auto auto;
+   grid-row-gap: 20px;
+   grid-column-gap: 10px;
+  
+}
+
+
+
 
 footer {
     width: 100%;
