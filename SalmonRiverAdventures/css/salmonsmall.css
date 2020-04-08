@@ -133,6 +133,10 @@ article {
     text-align: center;
 }
 
+
+
+
+
 .sports {
     display: block;
     margin: auto;
@@ -144,12 +148,11 @@ img.sports {
     box-shadow: 5px 5px 5px rgb(0, 0, 0);
 }
 
-h2 {
-    font-family: "Montserrat";
-    color:#014949;
-    text-align: left;
-    margin-left: 80px;
-}
+
+
+
+
+
 
 /*CONTACT*/
 
@@ -160,7 +163,7 @@ iframe {
 }
 
 #comments h2 {
-   margin-left: 280px;
+  text-align: center;
 }
 
 
@@ -243,6 +246,8 @@ textarea {
 .cards section h2 {
     text-align: center;
 }
+
+
 
 .cards img {
     margin-bottom: 15px;
