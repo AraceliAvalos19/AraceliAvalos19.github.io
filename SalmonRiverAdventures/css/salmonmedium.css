@@ -38,8 +38,7 @@
 #info p {
     padding-left: 120px;
  }
- 
- 
+
 .clearfix:after {
     content: "";
     display: table;

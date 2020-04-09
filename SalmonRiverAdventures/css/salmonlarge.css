@@ -17,6 +17,13 @@
         width: 100%;
    }
 
+   .logos {
+    display: block;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 10px;
+ }
+
    article {
       display: inline-block;
       width: 540px;
@@ -30,7 +37,15 @@
    grid-row-gap: 20px;
    grid-column-gap: 10px;
    padding-left: 90px;
+}
 
+#cards {
+    display: grid;
+    margin: auto;
+    grid-template-columns: auto auto;
+   grid-row-gap: 20px;
+   grid-column-gap: 10px;
+   padding-left: 90px;
 }
 
 img.sports {
@@ -45,17 +60,19 @@ img.sports {
 }
 
 
+img.guides {
+    max-width: 250px;
+   
+}
 
-
-
-
-
-
-
+.xguidesx {
+    max-width: 480px;
+    max-height: 319px;
+    margin: auto;
+}
 #format {
     padding-left: 20px;
 }
-
 
 .space {
         background-color: #161c14;
