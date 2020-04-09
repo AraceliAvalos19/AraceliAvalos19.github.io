@@ -133,6 +133,18 @@ article {
     text-align: center;
 }
 
+article a {
+    margin-left: 10px;
+    background-color: #014949;
+    color: #a8c7a4;
+    margin: 1px black;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px gray solid;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px;
+}
+
 .sports {
     display: block;
     margin: auto;
