@@ -151,13 +151,15 @@
     <h2>Book an Adventure</h2>
 </div>
     <fieldset class="reserv">
-        <legend>Personal Information</legend>
+        <legend>Your Information</legend>
         <label class="square">Full Name* <input type="text" name="fullName" required pattern="[A-za-z].{4,}" title="Must be at least 5 characters"></label>
         <label class="square">Email <input type="email" name="e-mail" placeholder="someone@gmail.com"></label>
         <label class="square">Phone Number* <input type="tel" name="phone" required></label>
         <label class="square">Adventure Selection<input type="text" name="adventure" required pattern="[A-za-z].{4,}"></label>
         <label class="square">Start Date <input type="date" name="startDate"></label>
         <label class="square">Special Request<textarea name="comments" rows="6" cols="75"></textarea></label>
+            
+    <input id="reportBtn" type="submit" value="Send Reservation">
     </fieldset>
         
 

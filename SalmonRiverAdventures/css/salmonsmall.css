@@ -297,8 +297,13 @@ textarea {
     color: #02725e;
     font-family: "Montserrat";
     font-weight: 700;
-    
- }
+}
+
+.big {
+    line-height: 6;
+}
+
+
 
  /*END RESERVATIONS*/
 
