@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link  href="css/favicon.ico" rel="shortcut icon">
+<meta name="Araceli Ávalos" content="Reservations Page">
+<title>Reservations Page</title>
+
+   <!-- STYLE SHEETS -->
+<link href="css/salmonnormalize.css" rel="stylesheet">
+<link href="css/salmonsmall.css" rel="stylesheet">
+<link href="css/salmonmedium.css" rel="stylesheet">
+<link href="css/salmonlarge.css" rel="stylesheet">
+
+</head>
+
+<body>
+   
+   
+<!-- HEADER HERE -->
+
+    
+    <header>
+
+        <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="primaryNav" class="hide">
+                      
+            <li><a href="salmonindex.html">Home</a></li>  
+            <li><a href="riverguide.html">River Guide</a></li>
+            <li class="active"><a href="reservations.html">Reservations</a></li>
+            <li><a href="contactpage.html">Contact</a></li>
+           
+        </ul>
+       </nav>
+
+  </header>
+  <main> 
+    <img class="logos"  src="images/colorlogo120.jpg" alt="logo"/>
+<br>
+
+
+
+
+    <section>
+
+        <div id= "presentation">
+            <h1>Reservations</h1>
+            <p>You will be in good hands, get to know our staff members and read 
+            a little bit about them, so you can have a taste of what's coming for you.
+            </p>
+         
+        </div>       
+
+    <table id="cost">
+        <tr>
+            <th>Adventure</th>
+            <th>Lenght</th>
+            <th>Skill</th>
+            <th>Adult Cost</th>
+            <th>Youth Cost</th>
+        </tr>
+        <tr>
+            <th>Whitewater Rafting</th>
+            <th>Half Day</th>
+            <th>Beginner/Advanced</th>
+            <th>$79</th>
+            <th>$89</th>
+        </tr>
+        <tr>
+            <th>Whitewater Rafting</th>
+            <th>Full Day</th>
+            <th>Beginner/Advanced</th>
+            <th>$99</th>
+            <th>$89</th>
+        </tr>
+        <tr>
+            <th>Kayaking</th>
+            <th>Half Day</th>
+            <th>Beginner/Advanced</th>
+            <th>$79</th>
+            <th>$89</th>
+        </tr>
+        <tr>
+            <th>Kayaking</th>
+            <th>Full Day</th>
+            <th>Beginner/Advanced</th>
+            <th>$99</th>
+            <th>$89</th>
+        </tr>
+        <tr>
+            <th>Camping</th>
+            <th>Overnight</th>
+            <th>Beginner/Advanced</th>
+            <th>$89</th>
+            <th>$79</th>
+        </tr>
+        <tr>
+            <th>Camping</th>
+            <th>Extra Night</th>
+            <th>Beginner/Advanced</th>
+            <th>$79</th>
+            <th>$69</th>
+        </tr>
+        <tr>
+            <th>Fishing Gear Rentals</th>
+            <th>Per Day</th>
+           
+            <th>Boots</th>
+            <th>$15</th>
+            <th>$15</th>
+        </tr>
+        <tr>
+            <th>Fishing Gear Rentals</th>
+            <th>Per Day</th>
+           
+            <th>Waders</th>
+            <th>$25</th>
+            <th>$25</th>
+        </tr>
+        <tr>
+            <th>Fishing Gear Rentals</th>
+            <th>Per Day</th>
+           
+            <th>Jackets</th>
+            <th>$25</th>
+            <th>$25</th>
+        </tr>
+        <tr>
+            <th>Fishing Gear Rentals</th>
+            <th>Per Day</th>
+            
+            <th>Rod</th>
+            <th>$20</th>
+            <th>$20</th>
+        </tr>
+        <tr>
+            <th>Fishing Gear Rentals</th>
+            <th>Per Day</th>
+           
+            <th>Reel</th>
+            <th>$20</th>
+            <th>$20</th>
+        </tr>
+        
+    </table>
+        
+
+    </main> 
+    <br>
+
+    <footer>
+    
+        <p>&copy; Salmon River Adventures| Weather Information Provided by "<a href="https://openweathermap.org/">
+            OpenWeatherMap</a> " 
+            | Araceli Ávalos
+        <p><span id="currentdate"></span> </p> 
+    </footer>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    
+    <script src="js/scripts.js"></script>
+    
+    <script>
+        const options = {weekday: "long", day: "numeric", month: "long", year: "numeric"}; 
+                document.getElementById("currentdate").textContent = new Date().toLocaleDateString("en-US",options);
+    
+    </script>
+    </body>
+    </html>
+    
+
+
+
+
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+
+ 

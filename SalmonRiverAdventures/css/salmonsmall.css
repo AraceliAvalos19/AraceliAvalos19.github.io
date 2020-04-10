@@ -113,6 +113,8 @@ nav ul.hide {display: none;}
     font-family: "Montserrat";
     font-weight: 900;
    font-size: 20px;
+   margin-left: 7%;
+   margin-right: 4%;
   
 }
 
@@ -155,6 +157,7 @@ article a {
 img.sports {
     box-shadow: 5px 5px 5px rgb(0, 0, 0);
 }
+
 
 /*CONTACT*/
 
@@ -233,6 +236,26 @@ textarea {
     display: flex;
     justify-content: center;
 }
+
+/*COSTS*/
+#cost {
+    font-family: "Montserrat";
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #02725e;4
+    color: #012929;
+  }
+
+/*END COSTS*/
 
 footer {
     width: 100%;
