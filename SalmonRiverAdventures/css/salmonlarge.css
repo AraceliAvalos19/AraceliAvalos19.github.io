@@ -30,6 +30,11 @@
       height: 700px;
 }
 
+#cards article {
+    display: inline-block;
+    width: 540px;
+    height: 540px;
+}
    #photos {
     display: grid;
     margin: auto;
@@ -65,11 +70,6 @@ img.guides {
    
 }
 
-.xguidesx {
-    max-width: 480px;
-    max-height: 319px;
-    margin: auto;
-}
 #format {
     padding-left: 20px;
 }

@@ -239,23 +239,68 @@ textarea {
 
 /*COSTS*/
 #cost {
+    margin: 0 auto;
     font-family: "Montserrat";
     border-collapse: collapse;
-    width: 100%;
+    border: 1px #929691 solid;
   }
   
-  td, th {
-    border: 1px solid #
+#cost td {
+    border: 1px solid #02725e;
+    background-color: #02725e;
+    color: #a8c7a4;
+    font-weight: bold;
     text-align: left;
     padding: 8px;
   }
-  
-  tr:nth-child(even) {
-    background-color: #02725e;4
+
+ #cost th {
+    border: 1px solid #a8c7a4;
+    text-align: left;
+    padding: 8px;
+
+ }
+#cost tr:nth-child(even) {
+    background-color: #a8c7a4;
     color: #012929;
   }
 
+#cost tr:hover {
+    background-color: #f0e6da;
+}
+
 /*END COSTS*/
+
+/*RESERVATIONS*/
+.reserv {
+    display: block;
+    margin: auto;
+    font-family: "Montserrat";
+    font-weight: 700;
+    background-color: #a8c7a4;
+    color: #012929;
+    box-shadow: 5px 5px #3b413a;
+    max-width: 51%;
+ }
+ 
+       
+ .book h2{
+    color: #012929;
+    font-family: "Montserrat";
+    font-weight: bolder;
+    text-shadow: black 1px 1px;
+    text-align: center;
+ }
+
+ .book h4 {
+    text-align: center;
+    color: #02725e;
+    font-family: "Montserrat";
+    font-weight: 700;
+    
+ }
+
+ /*END RESERVATIONS*/
 
 footer {
     width: 100%;
