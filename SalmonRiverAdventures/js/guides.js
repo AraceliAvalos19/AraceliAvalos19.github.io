@@ -1,4 +1,4 @@
-const request = 'https://AraceliAvalos19.github.io/SalmonRiverAdventures/salmon.json';
+const request ='https://AraceliAvalos19.github.io/SalmonRiverAdventures/salmon.json';
 
 
 fetch(requestURL)
