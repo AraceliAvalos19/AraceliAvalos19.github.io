@@ -57,7 +57,7 @@ nav ul.hide {display: none;}
     top: 40px;
     right: 5px;
     display: grid;
-    grid-template-columns: 120px 50px;
+    grid-template-columns: 125px 55px;
     background-color: #a8c7a4;
     opacity: .7;
     color: #012929;
