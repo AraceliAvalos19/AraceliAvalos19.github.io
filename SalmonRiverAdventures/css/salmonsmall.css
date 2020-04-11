@@ -7,18 +7,13 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 
 
 .logo {
-    display: block;
-    position: absolute;
-    margin-left: 10px; 
+     display: none;
 }
 
 .logos {
-    display: block;
-    position: absolute;
-    margin-left: 10px;
-  
-  
+    display: none;
  }
+ 
 nav button {
     margin: .2rem 2%;
     background-color: transparent;
@@ -239,36 +234,33 @@ textarea {
 }
 
 /*COSTS*/
-#cost {
-    margin: 0 auto;
+table{
+    width: 60%;
+    margin: 0 20% 0 20%;
     font-family: "Montserrat";
-    border-collapse: collapse;
-    border: 1px #929691 solid;
-  }
-  
+    color: #519191;
+}
+
 #cost td {
     border: 1px solid #02725e;
     background-color: #02725e;
     color: #a8c7a4;
     font-weight: bold;
     text-align: left;
-    padding: 8px;
+    border-collapse: collapse;
   }
 
- #cost th {
-    border: 1px solid #a8c7a4;
+  
+ #cost th{
+    border: 1px  #a8c7a4;
     text-align: left;
-    padding: 8px;
-
  }
-#cost tr:nth-child(even) {
-    background-color: #a8c7a4;
-    color: #012929;
-  }
 
-#cost tr:hover {
+ #cost tr:hover {
     background-color: #f0e6da;
 }
+
+tr:nth-child(even) {background-color: #a8c7a4;} 
 
 /*END COSTS*/
 
