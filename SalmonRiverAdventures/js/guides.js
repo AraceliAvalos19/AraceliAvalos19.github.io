@@ -35,6 +35,6 @@ fetch(requestURL)
         text.appendChild(meet);
         card.appendChild(text);
         card.appendChild(img);
-        document.querySelector('main.cards').appendChild(card);
+        document.querySelector('div.cards').appendChild(card);
     });
 });
