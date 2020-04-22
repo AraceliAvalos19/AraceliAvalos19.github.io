@@ -1,0 +1,114 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+
+.logos {
+    display: none;
+ }
+
+nav button {
+    margin: .2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: #a8c7a4;
+}
+
+nav {
+    width: 100%;
+    background-color: #014949;
+    font-family: "Montserrat";
+    font-size: 18px;
+ }
+ 
+nav ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0;
+    font-weight: 800;
+}
+
+
+nav ul li a {
+  
+    display: inline-block;
+    text-align: center;
+    padding: .8rem 2%;
+    text-decoration: none;
+    color: #a8c7a4;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+nav ul li.active a{background-color: rgba(0, 0, 0, 0.2)}
+nav ul li a:hover {background-color: rgba(0, 0, 0, 0.2); color: #f1f1ed;}
+nav ul.hide {display: none;}
+
+#presentation {
+    text-align: center;
+    color: #014949;
+}
+
+#presentation h1 {
+    font-family: "Roboto Slab";
+    font-size: 50px;
+    text-shadow: black 1px 1px;
+}
+
+#presentation p {
+    font-family: "Montserrat";
+    font-weight: 900;
+   font-size: 20px;
+   margin-left: 6%;
+   margin-right: 6%;
+  
+}
+
+/*activities squares*/
+#cards {
+    display: grid;
+}
+
+article {
+    display: inline-block;
+    font-family: "Montserrat";
+    font-size: 16px;
+    color:  #02725e;
+    padding: .5rem;
+    margin: 2px;
+    margin-top: 2px;
+    background-color: #a8c7a4;
+    text-align: center;
+    box-shadow: 5px 5px 5px #929691;
+}
+
+.guides {
+    display: block;
+    margin: auto;
+    font-family: "Oswald";
+    color: #014949;
+}
+
+img.guides {
+    border: 1px #929691 solid;
+    box-shadow: 5px 5px 5px rgb(0, 0, 0);
+}
+
+footer {
+    width: 100%;
+    height: 5rem;
+    text-align: center;
+    background-color:#a8c7a4;
+    color: #014949;
+    padding: 1.5px;
+}
+
+
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}

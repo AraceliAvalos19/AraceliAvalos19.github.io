@@ -1,0 +1,57 @@
+/* 35em is also 560px when basefont is 16px */
+@media only screen and (min-width: 35rem) {
+
+    .logo {
+        display: block;
+        position: absolute;
+        margin-left: 10px; 
+    }
+    
+    .logos {
+        display: block;
+        position: absolute;
+        margin-left: 10px;
+     }
+                      
+    nav button {
+        display: none;
+    } 
+    nav ul {
+        padding-left: 100px;
+        margin: 0 auto;
+        max-width: 40rem;
+       
+}
+    nav ul li {
+        float: left;
+    }
+    nav ul li a {
+        border:none;
+        border-right: 1px solid rgba(0, 0, 0, 0.3);
+        padding: 1rem;
+    }
+  
+    nav ul.hide {
+        display: block;
+    }  
+ 
+#contact > div {
+    margin-right: 8px;
+}
+
+
+#info p {
+    padding-left: 120px;
+ }
+
+
+ .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+ /*end medium */
+}
