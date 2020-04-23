@@ -1,6 +1,6 @@
 WebFont.load({
     google: {
-    families: ["Oswald", "Roboto Slab", "Montserrat"]
+    families: ["Charm", "Noto Serif SC", "Roboto Slab", "Montserrat"]
     }
     });
 

@@ -1,0 +1,115 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+
+
+.space {
+   
+    width: 100%;
+    height: 3rem;
+    background-color: white;
+}
+
+
+/*banner*/
+
+/* mensaje*/
+.mensaje img {
+    display: block;
+    margin: auto;
+    max-width: 70%;
+
+}
+
+.mensaje {
+    max-width: 80%;
+   
+    margin: auto;
+    text-align: center;
+   
+   
+    margin-top: 5%;
+    font-family: "Noto Serif SC";
+    font-size: large;
+    background-color: rgb(238, 237, 181);
+    color: #002d54;
+    padding: 5%;
+}
+
+
+.Obra img {
+    float: left;
+    max-width: 250px;
+    margin-right: 2%;
+}
+
+.Obra {
+    max-width: 80%;
+    text-align: justify;
+    margin: auto;
+    margin-top: 10px; 
+    font-family: "Noto Serif SC";
+    font-size: large;
+    background-color: rgb(233, 233, 245);
+    color: #002d54;
+    padding: 10%;
+  
+}
+
+/*obra*/
+
+
+/*PRESENTATION*/
+#presentation {
+    text-align: center;
+    color: #014949;
+}
+
+#presentation h1 {
+    font-family: "Roboto Slab";
+    font-size: 50px;
+    text-shadow: black 1px 1px;
+}
+
+#presentation p {
+    font-family: "Montserrat";
+    font-weight: 900;
+   font-size: 20px;
+   margin-left: 7%;
+   margin-right: 4%;
+  
+}
+
+    box-shadow: 5px 5px 5px rgb(0, 0, 0);
+}
+
+footer {
+    width: 100%;
+    height: 5rem;
+    text-align: center;
+    background-color: #002d54;
+    color: #E5F3F7;
+    padding: 1.5px;
+}
+
+
+
+
+
+
+
+
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+
+
