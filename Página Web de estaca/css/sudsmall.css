@@ -56,50 +56,18 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
     background-color: rgb(233, 233, 245);
     color: #002d54;
     padding: 10%;
-  
-}
+  }
 
-/*obra*/
-
-
-/*PRESENTATION*/
-#presentation {
-    text-align: center;
-    color: #014949;
-}
-
-#presentation h1 {
-    font-family: "Roboto Slab";
-    font-size: 50px;
-    text-shadow: black 1px 1px;
-}
-
-#presentation p {
-    font-family: "Montserrat";
-    font-weight: 900;
-   font-size: 20px;
-   margin-left: 7%;
-   margin-right: 4%;
-  
-}
-
-    box-shadow: 5px 5px 5px rgb(0, 0, 0);
-}
-
-footer {
+  footer {
     width: 100%;
     height: 5rem;
     text-align: center;
+    padding: 1%;
+    font-family: "Montserrat";
     background-color: #002d54;
     color: #E5F3F7;
-    padding: 1.5px;
+    
 }
-
-
-
-
-
-
 
 
 
