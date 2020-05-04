@@ -13,6 +13,8 @@ body {
     max-width: 100%;
     margin: 0;
     background-color: #0e0e0e; 
+    background-color:#009cde;
+    color:#ffffff;
 }
   
 div {
@@ -103,3 +105,4 @@ margin: 4%;
 .post-content a {
   color: #6495ED;
 }
+

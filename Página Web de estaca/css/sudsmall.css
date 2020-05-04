@@ -65,10 +65,8 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
     padding: 1%;
     font-family: "Montserrat";
     background-color: #002d54;
-    color: #E5F3F7;
-    
+    color: #E5F3F7;    
 }
-
 
 
 .clearfix:after {
@@ -76,6 +74,8 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
     display: table;
     clear: both;
 }
+
+
 
 
 
