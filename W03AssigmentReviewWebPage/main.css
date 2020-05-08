@@ -139,17 +139,20 @@ margin: 4%;
         width: 410px;
     }
 
-    .post-content h2 a  {
-      font-size: 20px;
+   
+
+    section.post-content h2 a  {
+      font-size: 22px;
     }
 
     div.post-date {
       padding-left: 26px;
     }
    
-    img {
-        width: 15%;
-        margin-top: 60px;
-        margin-left: 20px;
-    }
+section.post-content img {
+        width: 60%;
+        margin-top: 100px;
+        margin-left: 10px;
+       
+        margin: 30px;    }
 }
