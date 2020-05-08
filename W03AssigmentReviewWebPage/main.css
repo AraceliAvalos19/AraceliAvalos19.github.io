@@ -109,10 +109,11 @@ margin: 4%;
         position: relative;
         height: 1740px;
         width: 160px;
-        padding: 30px;
-        font-size: 14px;
+        padding: 20px;
+        font-size: 13px;
     }
 
+    
  
     nav a {
         font-size: 12px;
