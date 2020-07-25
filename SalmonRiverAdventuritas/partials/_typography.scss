@@ -1,0 +1,60 @@
+// Noto Sans
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Open+Sans&display=swap');
+// Open Sans
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+// Raleway
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Open+Sans&family=Raleway&display=swap');
+// Forum
+@import url('https://fonts.googleapis.com/css2?family=Forum&family=Noto+Sans&family=Open+Sans&family=Raleway&display=swap');
+// Caudex
+@import url('https://fonts.googleapis.com/css2?family=Caudex&family=Forum&family=Noto+Sans&family=Open+Sans&family=Raleway&display=swap');
+// Cormorant Upright
+// @import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@700&display=swap');
+
+@mixin golden-elegant($font-size) {
+  color: #ffbe3b;
+  font-family: 'Cormorant Upright', serif;
+  font-size: $font-size;
+  font-weight: bold;
+  text-shadow: 1px 1px black;
+}
+
+
+* {font-family: 'Noto Sans', sans-serif}
+
+a {
+  color: darken($color-4, 10%);
+  font-weight: 700;
+  text-decoration: none;
+  text-shadow: 0 0 1px black;
+
+  &:hover {color: $color-1; text-shadow: 0 0 7px $color-2}
+}
+
+ul a,
+footer a {text-shadow: 0 0 3px black}
+
+ul a:hover,
+footer a:hover {color: $color-2; text-shadow: 0 0 1px black, 0 0 7px white}
+
+// main title: CSS Zen Temples & Celestial Glory
+header,
+.sidebar h3,
+footer::before {@include golden-elegant(3em)}
+
+// titles in body
+h3,
+.summary::before {
+  font-family: Caudex;
+  font-weight: 700;
+  font-size: 1.75em;
+  color: darken($color-1, 5%);
+  text-shadow: 2px 2px 2px $color-4;
+}
+
+// titles in footer
+.sidebar h3,
+footer::before {@include golden-elegant(2em)}
+
+ul {list-style-type: none; padding: 0 0 0 31px; margin-top: 1rem}

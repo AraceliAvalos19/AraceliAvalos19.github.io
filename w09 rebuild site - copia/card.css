@@ -1,0 +1,51 @@
+ 
+.grid{
+    display: grid;
+   grid-template-columns: 0px 30px repeat(3, 60px) 30px ;
+   grid-template-rows: 0px repeat(3, 60px 33px) 60px 10px;
+    grid-gap: 10px;
+     border: 1px solid grey;
+     height: 420px;
+      width: 300px;
+      border-radius: 10px;
+      box-shadow: 2px 2px 4px grey;
+  }
+  
+  .grid .cas {
+    background-color: white;
+    color: black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+   }
+  
+  .grid .cas2 {
+    background-color: white;
+    color: black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+     transform: rotate(180deg);
+    }
+  
+  .cas1 {
+    font-size: 27px;
+    text-align: center;
+  }
+      .icon2{
+          width: 27px;
+          height: 27px;
+      }
+  
+  .cas3 {
+    font-size: 27px;
+     text-align: center;
+    transform: rotate(180deg);
+  }
+      .icon3 {
+         
+          width: 27px;
+          height: 27px;
+          
+       }
+  

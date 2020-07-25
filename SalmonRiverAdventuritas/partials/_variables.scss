@@ -1,0 +1,44 @@
+/*
+ * colors
+ */
+$color-1: #01b6d1; // pacific blue - Action color
+$color-2: #ffd072; // orange-yellow (Crayola)
+$color-3: #fffff0; // ivory
+$color-4: #cccce2; // light periwinkle
+$color-5: #f7f7de; // beige
+$color-6: #bfbf6d; // dark khaki
+
+/*
+ * dimensions
+ */
+$circle-diameter: 210px;
+$section-header-height: $circle-diameter + 40px;
+$small-breakpoint: 1000px;
+
+/*
+ * images
+ */
+// source: temples# 1-5 are from Araceli's personal property, taken by her and her family
+$temple1: "images/20190824_132154.jpg";
+$temple2: "images/104996177_585235439085995_8082142108048199872_n.jpg";
+$temple3: "images/104866713_664073937479212_425804438935978162_n.jpg";
+$temple4: "images/20190827_180456.jpg";
+$temple5: "images/105427190_1679717852175285_4458146276605488197_n.jpg";
+// permission: https://unsplash.com/license
+// Unsplash photos are made to be used freely. Our license reflects that.
+// - All photos can be downloaded and used for free
+// - Commercial and non-commercial purposes
+// - No permission needed (though attribution is appreciated!)
+// more: https://unsplash.com/s/photos/lds-temple
+$temple6: "https://images.unsplash.com/photo-1567030893832-fcf9f96d2ac4";
+$temple7: "https://images.unsplash.com/photo-1574215676436-91d8855c0d3f";
+$temple8: "https://images.unsplash.com/photo-1501130313602-9f7457f7985a";
+$temple9: "https://images.unsplash.com/photo-1571237531623-a1e1a731fa08";
+
+// source: https://pixabay.com/photos/cloud-sunshine-clouds-sky-mood-4174061/
+// permission: Free Download.  Pixabay License: Free for commercial use, No attribution required
+$cloud1: "https://cdn.pixabay.com/photo/2019/05/02/17/26/cloud-4174061_960_720.jpg";
+
+// source: https://en.wikipedia.org/wiki/File:Cloud.jpg
+// permission: Licensed under the Creative Commons license by Michael Jastremski.
+$cloud2: "https://upload.wikimedia.org/wikipedia/commons/9/94/Cloud.jpg";

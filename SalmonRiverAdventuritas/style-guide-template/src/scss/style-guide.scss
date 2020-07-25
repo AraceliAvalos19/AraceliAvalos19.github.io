@@ -1,0 +1,15 @@
+@import 'partials/reset';
+@import 'partials/prefix-mixins';
+@import 'partials/layout'; // responsive grid and media queries
+
+@import 'partials/colors.scss'; // style guide section 3
+@import 'partials/background.scss';
+@import 'partials/patterns.scss';
+@import 'partials/navigation.scss'; // style guide section 6
+@import 'partials/page-title.scss';
+@import 'partials/typography.scss'; // style guide section 4
+@import 'partials/buttons.scss'; // style guide section 5
+@import 'partials/icons.scss';
+@import 'partials/form.scss';
+
+@import 'partials/basic-style';

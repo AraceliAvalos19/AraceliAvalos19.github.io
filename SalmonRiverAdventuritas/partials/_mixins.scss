@@ -1,0 +1,69 @@
+
+@mixin circle($url, $bg-position-y) {
+  content: "";
+  position: absolute;
+  background: $color-5 url($url) no-repeat center;
+  background-size: cover;
+
+  // width: $circle-diameter; // TEMP (for Sass Live Server during development only)
+  // height: $circle-diameter; // TEMP (for Sass Live Server during development only)
+  width: min(40vw, #{$circle-diameter}); // MANUAL (for CLI sass)
+  height: min(40vw, #{$circle-diameter}); // MANUAL (for CLI sass)
+  border: 1px solid lightgrey;
+  border-radius: 50%;
+  background-position-y: $bg-position-y;
+}
+
+
+@mixin section($title-position-sm, $position-lg, $url, $bg-position-y) {
+  position: relative; // to position circle absolute top
+  display: flex;
+  flex-direction: column;
+  
+  $align-self-value: flex-end;
+  $pseudo-position: before;
+  $pseudo-side: left;
+
+  @if $title-position-sm == "left" {
+    $align-self-value: flex-start;
+    $pseudo-position: after;
+    $pseudo-side: right;
+  }
+
+  h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: $align-self-value;
+    width: 50%;
+    height: $section-header-height;
+  }
+  h3::#{$pseudo-position} {
+    @include circle($url, $bg-position-y);
+    #{$pseudo-side}: 9vw;
+  }
+
+  @media screen and (min-width: $small-breakpoint) {
+    width: 37%;
+
+    @if $position-lg == "center" {
+      margin: 0 auto;
+    } @else if $position-lg == "right" {
+      margin-left: auto;
+    }
+
+    h3 {
+      justify-content: flex-start;
+      align-items: flex-end;
+      align-self: initial;
+      width: initial;
+      height: $section-header-height - 50;
+      padding: .5em 3vw;
+    }
+    h3::#{$pseudo-position} {
+      top: -106px;
+      #{$pseudo-side}: 13vw;
+    }
+  }
+}
+

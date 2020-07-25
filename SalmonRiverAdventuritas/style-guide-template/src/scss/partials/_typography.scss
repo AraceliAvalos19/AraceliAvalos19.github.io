@@ -1,0 +1,89 @@
+// Noto Sans
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Open+Sans&display=swap');
+// Open Sans
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+// Raleway
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Open+Sans&family=Raleway&display=swap');
+// Forum
+@import url('https://fonts.googleapis.com/css2?family=Forum&family=Noto+Sans&family=Open+Sans&family=Raleway&display=swap');
+// Caudex
+@import url('https://fonts.googleapis.com/css2?family=Caudex&family=Forum&family=Noto+Sans&family=Open+Sans&family=Raleway&display=swap');
+// Cormorant Upright
+// @import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@700&display=swap');
+
+
+
+// fonts
+$primary-font: 'Open Sans', sans-serif; // 'Merriweather', serif;
+$secondary-font: 'Cormorant Upright', serif; // 'Open Sans', sans-serif;
+$tertiary-font: 'Raleway', sans-serif;
+
+/* -------------------------------- 
+
+xTypography 
+
+-------------------------------- */
+
+h1 {
+  text-transform: uppercase;
+  font-family: $secondary-font;
+  // font-weight: 900; // defined as 700 via @import URL
+  color: $color-1;
+  font-size: 4rem;
+  font-weight: 300;
+  line-height: 1.2;
+  margin: 0 0 0.4em;
+
+  // @include MQ(S) {
+  //   font-size: 3.2rem;
+  // }
+
+  // @include MQ(M) {
+  //   font-size: 4rem;
+  // }
+}
+
+h2 {
+  font-family: $tertiary-font;
+  color: $color-2;
+  font-size: 2.7rem;
+  // font-weight: bold; // defined as 700 via @import URL
+  // text-transform: uppercase;
+  // margin: 1em 0;
+
+  // @include MQ(S) {
+  //   font-size: 1.8rem;
+  //   margin: 1em 0 1.4em;
+  // }
+}
+
+h3 {
+  font-family: $secondary-font;
+  color: $color-2;
+  font-size: 3rem;
+}
+
+section > h2::before {
+  /* number before each section title */
+  color: darken($color-4, 15%);
+}
+
+p {
+  font-size: 1.5rem;
+  line-height: 1.4;
+  color: $color-1; //lighten($color-2, 25%);
+
+  a {
+    color: $color-4; // darken($color-1, 7%);
+    font-weight: 550;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+
+  // @include MQ(S) {
+  //   font-size: 1.6rem;
+  //   line-height: 1.6;
+  // }
+}
