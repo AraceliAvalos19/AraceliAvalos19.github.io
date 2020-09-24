@@ -1,0 +1,494 @@
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="Página JCLA">
+<meta name="author" content="Araceli Ávalos Lozano">
+
+
+<title>JCLA</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
+<link href="css/favicon.ico"  rel="icon">
+
+
+<link href="css/sudnormalize.css" rel="stylesheet">
+<link href="css/sudsmall.css" rel="stylesheet">
+<link href="css/sudmedium.css" rel="stylesheet">
+<link href="css/sudlarge.css" rel="stylesheet">
+
+<link rel="stylesheet" href="0">
+
+<style>
+  video {
+    max-width: 100%;
+    height: auto;
+  }
+  </style>
+
+</head>
+<body>
+  
+
+
+    <header>
+
+      <div class="logo">
+        <img src="images/logo80 .jpg" alt="logo">
+
+  
+        <h1>JCLA TECNOLOGÍA S.A. DE C.V.</h1>
+      </div>  
+      <br>
+      <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="primaryNav" class="hide">
+          <li class="active"><a href="PáginaWeb.html">Home</a></li>
+          <li><a href="#empresa">Quiénes somos</a></li>
+          <li><a href="#experiencias">Experiencias de éxito</a></li>
+          <li><a href="#objetivo">Objetivos</a></li>
+          <li><a href="#problemática">Problemática</a></li>
+          <li><a href="#mecanismos">Mecanismos</a></li>
+          <li><a href="#beneficios">Beneficios</a></li>
+          <li><a href="#videos">Videos</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+          
+        </ul>
+       </nav>
+ </header>
+
+   <br>
+
+      <div id="banner">
+
+            <img src="images/banner.jpg" srcset="images/banner727.jpg 727w,
+                                                            images/banner580.jpg 580w,
+                                                            images/banner300.jpg 300w"
+             sizes="(max-width: 727px) 50vw, 100vw"                                               
+             alt="banner">
+        </div>
+       
+        <div id="empresa">
+
+          <img src="images/nasa-Q1p7bh3SHj8-unsplash (4).jpg" srcset="images/nasa-Q1p7bh3SHj8-unsplash (4)600.jpg 600w,
+        images/nasa-Q1p7bh3SHj8-unsplash (4)400.jpg 400w,
+        images/nasa-Q1p7bh3SHj8-unsplash (4)300.jpg 300w"
+        sizes="(max-width: 600px) 50vw, 100vw"                                               
+        alt="planeta">
+        
+          <h2>Quiénes somos</h2>
+           <p>Por más de 12 años, JCLA Tecnología ha aplicado aditivos mediante su equipo multidisciplinario  
+               de una manera satisfactoria en muchas plantas de cemento en México, Chile, Ecuador, Brasil, Venezuela y Turquía,
+               trabajando para grupos tales como:      Cementos Cruz Azul, Holcim México, Holcim Ecuador, Cemex Tamuín,
+               Cementos Catatumbo Venezuela, Cementos Andino Venezuela y Nhu Turquía.
+           </p>
+        
+        <h2>Nuestra Empresa</h2>
+        <h3>JLCA México</h3>
+        <p>Nuestra meta es ser un proveedor distinguido en el segmento de los aditivos. En la estrategia de
+        generar valor a nuestros clientes a través de soluciones y propuestas innovadoras en el
+        mercado de la Construcción.</p>
+              
+        <p>VISIÓN</p>
+        <p>Contando con un abanico amplio de productos y servicios en la aplicación de aditivos para la industria
+        de la construcción y otros sectores, JCLA tecnología busca el posicionamiento sólido como líder nacional y
+        mundial en los mercados altamente competitivos.</p>
+        
+        <p>MISIÓN</p>
+        <p>JCLA está comprometida con la calidad, la seguridad, el servicio y con el cuidado del medio ambiente. 
+        Nuestras soluciones y alta experiencia en el ramo de los aditivos generan beneficios a nuestros clientes a través 
+        de nuestros productos y servicios.</p>
+        
+        <style>
+          * {box-sizing: border-box}
+          body {font-family: Verdana, sans-serif; margin:0}
+          .mySlides {display: none}
+          img {vertical-align: middle;}
+          
+          /* Slideshow container */
+          .slideshow-container {
+            max-width: 1000px;
+            position: relative;
+            margin: auto;
+          }
+          
+          /* Next & previous buttons */
+          .prev, .next {
+            cursor: pointer;
+            position: absolute;
+            top: 50%;
+            width: auto;
+            padding: 16px;
+            margin-top: -22px;
+            color: white;
+            font-weight: bold;
+            font-size: 30px;
+            transition: 0.6s ease;
+            border-radius: 0 3px 3px 0;
+            user-select: none;
+          }
+          
+          /* Position the "next button" to the right */
+          .next {
+            right: 0;
+            border-radius: 5px 0 0 5px;
+          }
+          
+          /* On hover, add a black background color with a little bit see-through */
+          .prev:hover, .next:hover {
+            background-color: rgba(0,0,0,0.8);
+          }
+          
+          /* Caption text */
+          .text {
+            color: #f2f2f2;
+            font-size: 15px;
+            padding: 8px 12px;
+            position: absolute;
+            bottom: 8px;
+            width: 100%;
+            text-align: center;
+          }
+          
+          /* Number text (1/3 etc) */
+          .numbertext {
+            color: #f2f2f2;
+            font-size: 12px;
+            padding: 8px 12px;
+            position: absolute;
+            top: 0;
+          }
+          
+         
+        
+          /* Fading animation */
+          .fade {
+            -webkit-animation-name: fade;
+            -webkit-animation-duration: 1.5s;
+            animation-name: fade;
+            animation-duration: 1.5s;
+          }
+          
+          @-webkit-keyframes fade {
+            from {opacity: .4} 
+            to {opacity: 1}
+          }
+          
+          @keyframes fade {
+            from {opacity: .4} 
+            to {opacity: 1}
+          }
+          
+          /* On smaller screens, decrease text size */
+          @media only screen and (max-width: 300px) {
+            .prev, .next,.text {font-size: 11px}
+          }
+          </style>
+          </head>
+          <body>
+          
+          <div class="slideshow-container">
+          
+          <div class="mySlides fade">
+            <div class="numbertext">1 / 4</div>
+            <img src="images/horno600.jpg" style="width:100%">
+            <div class="text"></div>
+          </div>
+          
+          <div class="mySlides fade">
+            <div class="numbertext">2 / 4</div>
+            <img src="images/salaControl600.jpg" style="width:100%">
+            <div class="text"></div>
+          </div>
+          
+          <div class="mySlides fade">
+            <div class="numbertext">3 / 4</div>
+            <img src="images/totems600.jpg" style="width:100%">
+            <div class="text"></div>
+          </div>
+        
+          <div class="mySlides fade">
+            <div class="numbertext">4 / 4</div>
+            <img src="images/aditivo600.jpg" style="width:100%">
+            <div class="text"></div>
+          </div>
+          
+          
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          
+          </div>
+          <br>
+          
+          <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span> 
+            <span class="dot" onclick="currentSlide(2)"></span> 
+            <span class="dot" onclick="currentSlide(3)"></span> 
+          </div>
+          
+          <script>
+          var slideIndex = 1;
+          showSlides(slideIndex);
+          
+          function plusSlides(n) {
+            showSlides(slideIndex += n);
+          }
+          
+          function currentSlide(n) {
+            showSlides(slideIndex = n);
+          }
+          
+          function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+            if (n > slides.length) {slideIndex = 1}    
+            if (n < 1) {slideIndex = slides.length}
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";  
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex-1].style.display = "block";  
+            dots[slideIndex-1].className += " active";
+          }
+          </script>
+          
+        
+        
+        
+        
+        <p>NUESTRA EMPRESA</p>
+        
+        <p>JCLA Tecnología ha desarrollado formulas únicas y consistentes. Nuestro personal altamente competitivo
+         fabrica los aditivos, presta servicios y asesoría ayudando a nuestros clientes a generar valor. Logrando
+                      disminuir sus costos operativos con éxito.</p>         
+        
+        
+        
+        <p>PILARES QUE NOS DISTINGUEN (VALORES)</p>
+        <ul class="a"></ul>
+        <li> Innovación </li>
+        <li> Integridad </li>            
+        <li> Trabajo en equipo </li> 
+        <li> Persistencia </li>
+                  </ul>
+        
+        <p>POSICIONAMIENTO DE NUESTRA MARCA </p>
+        <p>Hablar de JCLA significa innovación, calidad y excelente servicio, buscando siempre ser el puente entre la rentabilidad
+          y nuestros clientes. </p>
+        
+                 <img src="images/enAccion.jpg" srcset="images/enAccion600.jpg 600w,
+                 images/enAccion400.jpg 400w,
+                 images/enAccion300.jpg 300w"
+               sizes="(max-width: 600px) 50vw, 100vw"
+               alt="enAccion">
+               
+        
+        <p>NUESTRA GENTE</p>
+        <p>Nuestro personal comprometido permite cumplir  las expectativas de nuestros clientes, socios y otros grupos de interés.
+                  Crear valor a todos ellos es sinónimo de compromiso.</p>
+                      
+        <br>
+        <li class="active"><a href="PáginaWeb.html">Home</a></li> 
+        <br>
+          
+        </div>
+            
+     
+    
+
+
+   <div id="experiencias">
+
+    <img src="images/greg-rakozy-oMpAz-DN-9I-unsplash (2).jpg " srcset="images/greg-rakozy-oMpAz-DN-9I-unsplash (2)600.jpg 600w,
+    images/greg-rakozy-oMpAz-DN-9I-unsplash (2)400.jpg 400w,
+    images/greg-rakozy-oMpAz-DN-9I-unsplash (2)300.jpg 300w"
+    sizes="(max-width: 600px) 50vw, 100vw"                                               
+    alt="viaLactea">
+   <h2> Experiencias de éxito</h2>
+   <p>
+    JCLA Tecnología ha desarrollado una formula única y consistente: El aditivo JC-9157. Empresas como ESS Services 
+    fabrica nuestro aditivo. Basados en nuestro servicio técnico y asesoría, hemos logrado optimizar el proceso 
+    de fabricación de Clinker y reducir los costos de operación con éxito en:
+
+    Planta Cruz Azul Hidalgo (México),
+    Planta Nhu (Turquía),
+    Cementos Polpaico (Chile),
+    Cementos Holcim (Ecuador),
+    Cementos Holcim Macuspana (México),
+    Y recientemente con éxito en Cementos Intercement (Brasil).
+   </p>
+   <li class="active"><a href="PáginaWeb.html">Home</a></li>   
+</div>
+
+   <div id="objetivo">
+    <img src="images/dimitry-anikin-ATyawSn-NsE-unsplash.jpg " srcset="images/dimitry-anikin-ATyawSn-NsE-unsplash600.jpg 600w,
+    images/dimitry-anikin-ATyawSn-NsE-unsplash400.jpg 400w,
+    images/dimitry-anikin-ATyawSn-NsE-unsplash300.jpg 300w"
+    sizes="(max-width: 600px) 50vw, 100vw"                                               
+    alt="fabrica">
+
+
+   <h2>Objetivos</h2>
+   <ul class="a">
+   <li>Eliminar las adherencias que dañan la operación del horno, precalentador y precalcinador</li>
+   <li>Ganar estabilidad en el proceso</li> 
+   <li>Eliminar los paros no programados</li>  
+   <li>Minimizar los tiempos de limpieza en el precalcinador o precalentador</li> 
+   <li>Maximizar el rendimiento del Horno aumentando la producción </li>   
+   <li>Incrementar el porcentaje de sodio, potasio y azufre en clinker con sus respectivos beneficios</li> 
+  </ul>
+   <p>La formación de costra en los precalentadores y anillos en los hornos rotatorios son condiciones comunes que causan
+      problemas operativos, afectando la estabilidad del proceso. Esta situación se agrava cuando se usan combustibles fósiles
+      como el petcoke y el combustoleo por que son ricos en azufre y vanadio. Estos elementos causan la formación de costra y anillos, 
+      provocando inestabilidad en la operación y haciendo mas difícil el proceso de limpieza.
+   </p>
+   <ul class="a">
+   <li>Eliminar pegaduras existentes</li>
+  </ul>
+   <p>Mediante un análisis de la operación del horno, determinamos la causa de estas pegaduras y con nuestra herramienta de fotografía 
+      y video termográfico, encontramos la exacta ubicación y dimensiones de dichas costras en los ciclones. Así es posible pronosticar las
+       afectaciones al momento de desprenderse estas costras. <a href="images/video1.mp4">Costras duras Video 1</a></p>
+
+   <p>Al utilizar el aditivo JC-9157, este penetrará en las fisuras de las costras y anillos debilitando su estructura. 
+      El aditivo causa el desprendimiento paulatino de las mismas y evita que nuevas costras duras se formen. Las 
+      nuevas formaciones serán prácticamente arenisca y se desprenderán solas con el mismo paso de
+      la harina caliente, evitando largos tiempos  de limpieza.<a href="images/video2.mp4">Costras frágiles Video 2</a></p>
+      <li class="active"></li><a href="PáginaWeb.html">Home</a></li> 
+   </div>   
+ 
+   <div id="problemática">
+
+    <img src="images/Prob.jpg" srcset="images/Prob600.jpg 600w
+    images/Prob400.jpg 400w,
+    images/Prob300.jpg 300w"
+    sizes="(max-width: 600px) 50vw, 100vw"                                               
+    alt="problemas">
+    
+<h2>Problemática</h2>
+<ul class="a">
+Condiciones originadas por el consumo de petcoke de alto azufre:
+<ul class="a"></ul>
+<li>Paros no programados debido a la obstrucción en el horno y ciclones</li>
+<li>Aumento en la presión del horno</li>
+<li>Inestabilidad en la operación</li>
+<li>Aire adicional entrando al horno debido a las actividades de limpieza (aire falso)</li>
+<li>Afectación a causa de combustion incompleta</li>
+<li>Menor posibilidad de utilizar combustibles alternos</li>
+</ul>
+<li class="active"><a href="PáginaWeb.html">Home</a></li> 
+</div>
+
+<div id="mecanismos">
+
+  <img src="images/isis-franca-hsPFuudRg5I-unsplash.jpg" srcset="images/isis-franca-hsPFuudRg5I-unsplash600.jpg 600w,
+                                                            images/isis-franca-hsPFuudRg5I-unsplash400.jpg 400w,
+                                                            images/isis-franca-hsPFuudRg5I-unsplash300.jpg 300w"
+             sizes="(max-width: 600px) 50vw, 100vw"                                               
+             alt="engranes">
+<h2>Mecanismos de acción</h2>
+<p>Con el uso del aditivo se reduce la generación de vanadatos de bajo punto de fusión (vanadatos de Ni, K, Na y Fe), para dar lugar a vanadatos
+    cuyo punto de fusión es superior a los 1,000°C. Los vanadatos generados al utilizar el aditivo JC-9157 son frágiles y 
+    quebradizos, disminuyendo la formación de depósitos y anillos. El vanadio es altamente reactivo con el azufre, liberándolo para reaccionar
+    con los álcalis. Esta reacción se logra porque el aditivo JC-9157 es altamente reactivo al vanadio.
+<p> Aditivo JC-9157 Agente de control de Azufre como solución </p> 
+<ul class="a">                                                              
+<li> El aditivo JC-9157 reacciona con  los componentes del vanadio presente en el combustible, de tal forma que inhibe 
+    su efecto catalítico en la oxidación de SO2 a SO3 en los gases de combustión. </li>                              
+<li> Por consiguiente, permite mayor disponibilidad de O2 en el proceso y mayor porcentaje de sodio, potasio y azufre 
+     en Clinker.</li>                              
+<li> El aditivo JC-9157 cambia  el punto de fusión de los compuestos de vanadio generados en la estructura fisica y 
+    química de costras y los anillos, haciéndolos mas frágiles y friables.</li>         
+
+     </ul>
+     <li class="active"><a href="PáginaWeb.html">Home</a></li> 
+    </div>
+
+    <div id="beneficios">
+
+      <img src="images/joshua-sukoff-UPsY_kqBXh8-unsplash.jpg" srcset="images/joshua-sukoff-UPsY_kqBXh8-unsplash600.jpg 600w,
+      images/joshua-sukoff-UPsY_kqBXh8-unsplash400 400w,
+      images/joshua-sukoff-UPsY_kqBXh8-unsplash300 300w"
+    sizes="(max-width: 600px) 50vw, 100vw"
+    alt="beneficios">
+
+<h2>Beneficios esperados</h2>
+<p>Debido a la modificación de las propiedades de la costras y anillos, será más fácil quitarla en los puntos críticos 
+  de pegaduras (precalcinador, precalentador, horno).</p>
+<p>Mantener y/o incrementar máxima capacidad de alimentación (t/h).</p>   
+<p>Una atmósfera rica en O2 permite aumentar el consumo de combustibles alternos. </p> 
+<p>Menor número de paros no programados aumentan la producción del horno.</p>
+<p>Mayor estabilidad de operacion y mayor vida útil del equipo.</p>
+<li class="active"><a href="PáginaWeb.html">Home</a></li> 
+</div>
+
+  <div id="videos">
+    
+
+<video width="300" controls>
+  <source src="images/video1.mp4" type="video/mp4">
+</video>
+<div class="space"></div>
+
+
+<video width="300" controls>
+  <source src="images/video2.mp4" type="video/mp4">
+</video>
+<div class="space"></div>
+
+
+<video width="300" controls>
+  <source src="images/video3.mp4" type="video/mp4">
+</video>
+<div class="space"></div>
+
+
+<video width="300" controls>
+  <source src="images/video4.mp4" type="video/mp4">
+</video>
+<div class="space"></div>
+
+<video width="300" controls>
+  <source src="images/video5.mp4" type="video/mp4">
+</video>
+<div class="space"></div>
+
+
+<video width="300" controls>
+  <source src="images/video6.mp4" type="video/mp4">
+</video>
+<div class="space"></div>
+
+
+<li class="active"><a href="PáginaWeb.html">Home</a></li> 
+
+
+</div>
+
+<div class="space"></div>
+
+<div id="contacto">
+<footer>   
+  <h4>JCLA TECNOLOGÍA S.A. de C.V.</h4>  
+  <h5>jclatecnologia@gmail.com   | <img src="images/phone.png" alt="">811-771-95-08 | <img src="images/whatsappoky.png" alt="">+52-812-097-61-43   |  Monterrey, N.L., MEXICO</h5> 
+  <p><span id="currentdate"></span></p> 
+</footer>
+
+</div>
+
+       
+<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+        
+<script src="js/scripts.js"></script>
+
+<script>
+  const options = {weekday: "long", day: "numeric", month: "long", year: "numeric"}; 
+          document.getElementById("currentdate").textContent = new Date().toLocaleDateString("en-US",options);
+
+</script>
+
+
+
+</body>
+</html>
